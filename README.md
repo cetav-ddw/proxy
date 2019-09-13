@@ -1,6 +1,6 @@
 # proxy Cetav 2019
 
-* `npm install`  nvm use x10.15.3
+* `npm install`  nvm use x10.15
 
 ## NPM Commands
 
