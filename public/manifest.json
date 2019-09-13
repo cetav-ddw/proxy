@@ -1,0 +1,8 @@
+{
+    "short_name": "Proxy",
+    "name": "Proxy",
+    "icons": [],
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation": "portrait"
+}
