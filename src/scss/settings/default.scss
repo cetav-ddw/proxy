@@ -1,0 +1,23 @@
+//titles
+
+h2,h3{
+  font-family: $titles;
+}
+
+//font-sizes
+h1{
+  font-size: 5.62em;
+}
+
+h2{
+  font-size:3.75em;
+}
+
+h3{
+  font-size: 3.12em;
+}
+
+p{
+  font-size: 1.37em;
+  font-family: $regular-txt;
+}
