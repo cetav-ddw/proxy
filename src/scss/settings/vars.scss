@@ -19,7 +19,24 @@ $pink:#fd39d2;
 $blue:#2616e0;
 $turquoise:#00DFFD;
 
-// typographies
+// typography
 $titles: 'Roboto Condensed', sans-serif;
 $regular-txt: 'Lexend Deca', sans-serif;
+
+
+// USING ONLY IN HEADER
 $header-txt:'Bungee Shade', cursive;
+
+
+// Subtitles
+@font-face {
+  font-family: Cooper-Hewitt;
+  src: url(//src/fonts/CooperHewitt-Semibold.otf) format('otf');
+}
+
+
+// USING ONLY IN HEADER
+@font-face {
+  font-family: Bugfast;
+  src: url(//src/fonts/Bugfast.otf) format('otf');;
+}
