@@ -4,11 +4,21 @@
 }
 
 .allies__imgs {
-  padding-left: 250px;
   display: grid;
+  padding-left: 350px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 120px;
+  }
+  @media (max-width: 414px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding-left: 50px;
+  }
 }
 
 .allies__item {
@@ -39,6 +49,9 @@
   font-size: 28px;
   padding-left:55px;  
   padding-top:25px;
+  @media (max-width: 414px) {
+    font-size: 24px;
+  }
 }
 
 .copy {
@@ -48,6 +61,14 @@
   grid-column-start: 1;
   grid-column-end: 3;
   padding-left: 70px;
+  @media (max-width: 768px) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+  @media (max-width: 414px) {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
 }
 
 .copy__proxy {
@@ -67,6 +88,15 @@
   grid-row-end: 5;
   grid-column-start: 2;
   grid-column-end: 3;
+  @media (max-width: 768px) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  @media (max-width: 414px) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding-bottom: 30px;
+  }
 }
 
 .media__icon {
@@ -87,6 +117,14 @@
   padding-top: 50px;
   grid-column-start: 1;
   grid-column-end: 4;
+  @media (max-width: 768px) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  @media (max-width: 414px) {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
 }
 
 .title-footer__concat { 
@@ -94,12 +132,23 @@
   font-family: Cooper-Hewitt;
   font-size: 24px;
   padding-left: 6px;
+  @media (max-width: 768px) {
+    font-size: 22px;
+  }@media (max-width: 414px) {
+    font-size: 18px;
+  }
 }
 
 .title-footer__proxy {
   color: #fff;
   font-family: Bugfast;
   font-size: 24px;
+  @media (max-width: 768px) {
+    font-size: 22px;
+  }
+  @media (max-width: 414px) {
+    font-size: 18px;
+  }
 }
 
 .title-footer__wrong {
@@ -107,6 +156,12 @@
   font-family: "Space Mono", monospace;
   font-size: 28px;
   padding-left: 10px;
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media (max-width: 414px) {
+    font-size: 20px;
+  }
 }
 
 footer {
@@ -114,5 +169,5 @@ footer {
   grid-template-columns: 1fr 1fr 125px 1fr 1fr 1fr;
   grid-template-rows:  100px 1fr 50px 150px;
   grid-gap: 10px;
-  background-image: url(/img/bg-footer.jpg);
+  background-image: url(/img/bg-footer-h.jpg);
 }
