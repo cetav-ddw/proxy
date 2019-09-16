@@ -1,23 +1,25 @@
-//titles
-
-h2,h3{
-  font-family: $titles;
-}
-
-//font-sizes
-h1{
+// titles
+h1 {
   font-size: 5.62em;
 }
 
-h2{
-  font-size:3.75em;
+h2 {
+  font-family: Cooper-Hewitt;
+  font-size: 3.75em;
+
 }
 
-h3{
+h3 {
+  font-family: Cooper-Hewitt;
   font-size: 3.12em;
 }
 
-p{
-  font-size: 1.37em;
+h4 {
+  font-family: Cooper-Hewitt;
+  font-size: 2.7em;
+}
+
+p {
   font-family: $regular-txt;
+  font-size: 1.37em;
 }
