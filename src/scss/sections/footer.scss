@@ -1,173 +1,163 @@
-.allies {
-  grid-column-start: 1;
-  grid-column-end: 5;
-}
-
 .allies__imgs {
-  display: grid;
-  padding-left: 350px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
+  margin-bottom: 2%;
+  margin-left: 20%;
   @media (max-width: 768px) {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    padding-left: 120px;
+    margin-left: 10%;
   }
   @media (max-width: 414px) {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    padding-left: 80px;
+    margin-left: 3%;
   }
 }
 
 .allies__item {
-  align-self: center;
-  justify-self: center;
-  width: 200px;
+  width: 18%;
+  @media (max-width: 768px) {
+    width: 25%;
+  }
+  @media (max-width: 414px) {
+    width: 30%;
+  }
 }
 
-.allies__item--size {
-  width: 100px;
+.allies__item + .allies__item {
+  padding-left: 3%;
 }
 
-.allies__item--size2 {
-  width: 200px;
+
+.allies__item--size1 {
+  width: 45%;
+  @media (max-width: 768px) {
+    width: 57%;
+  }
+  @media (max-width: 414px) {
+    width: 90%;
+  }
 }
 
 .allies__item--size3 {
-  width: 200px;
+  width: 20%;
+  @media (max-width: 768px) {
+    width: 30%;
+  }
+  @media (max-width: 414px) {
+    width: 40%;
+  }
 } 
 
 .allies__item--size4 {
-  width: 245px;
+  width: 30%;
+  @media (max-width: 768px) {
+    width: 35%;
+  }
+  @media (max-width: 414px) {
+    width: 40%;
+  }
 }
 
 .allies__title {
   color: #fff;
   font-family: Cooper-Hewitt;
-  font-size: 28px;
-  padding-left:55px;  
-  padding-top:25px;
+  font-size: 2rem;
+  padding-left:5%;
   @media (max-width: 414px) {
-    font-size: 24px;
+    font-size: 1.2rem;
   }
 }
 
 .copy {
   color: #fff;
   font-family: "Lexend Deca", sans-serif;
-  font-size: 20px;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  padding-left: 70px;
-  @media (max-width: 768px) {
-    grid-column-start: 1;
-    grid-column-end: 4;
-  }
+  font-size: 1.4rem;
+  padding-left: 5%;
   @media (max-width: 414px) {
-    grid-column-start: 1;
-    grid-column-end: 7;
+    font-size: 1rem;
   }
 }
 
 .copy__proxy {
   color: #fff;
   font-family: Bugfast;
-  font-size: 20px;
+  font-size: 1.4rem;
+  @media (max-width: 414px) {
+    font-size: 1rem;
+  }
 }
 
 .copy__contact--bold {
   color: #fff;
   font-family: Cooper-Hewitt;
-  font-size: 20px;
+  font-size: 1.4rem;
+  @media (max-width: 414px) {
+    font-size: 1.2rem;
+  }
 }
 
 .media {
-  grid-row-start: 4;
-  grid-row-end: 5;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  @media (max-width: 768px) {
-    grid-column-start: 3;
-    grid-column-end: 5;
-  }
-  @media (max-width: 414px) {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    padding-bottom: 30px;
-  }
+  padding-bottom: 3%;
 }
 
 .media__icon {
-  padding-top: 25px;
-  width: 40px;
+  padding-top: 1%;
+  width: 3%;
+  @media (max-width: 414px) {
+    width: 8%;
+  }
 }
 
 .media__icon--link + .media__icon--link {
-  padding-left: 40px;
+  padding-left: 2%;
 }
 
 .media__icon--pdl {
-  padding-left: 50px; 
+  padding-left: 27%;
+  @media (max-width: 414px) {
+    padding-left: 35%;
+  }
 }
 
 .title-footer {
-  padding-left:55px;  
-  padding-top: 50px;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  @media (max-width: 768px) {
-    grid-column-start: 1;
-    grid-column-end: 5;
-  }
-  @media (max-width: 414px) {
-    grid-column-start: 1;
-    grid-column-end: 7;
-  }
+  padding-left: 5%;  
+  padding-top: 5%;
 }
 
 .title-footer__concat { 
   color: #fff;
   font-family: Cooper-Hewitt;
-  font-size: 24px;
-  padding-left: 6px;
+  font-size: 1.5rem;
+  padding-left: 1%;
   @media (max-width: 768px) {
-    font-size: 22px;
-  }@media (max-width: 414px) {
-    font-size: 18px;
+    font-size: 1.2rem;
+  }
+  @media (max-width: 414px) {
+    font-size: 1rem;
   }
 }
 
 .title-footer__proxy {
   color: #fff;
   font-family: Bugfast;
-  font-size: 24px;
+  font-size: 1.5rem;
   @media (max-width: 768px) {
-    font-size: 22px;
+    font-size: 1,2rem;
   }
   @media (max-width: 414px) {
-    font-size: 18px;
+    font-size: 1rem;
   }
 }
 
 .title-footer__wrong {
   color: #fff;
   font-family: "Space Mono", monospace;
-  font-size: 28px;
-  padding-left: 10px;
+  font-size: 2rem;
+  padding-left: 1%;
   @media (max-width: 768px) {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   @media (max-width: 414px) {
-    font-size: 20px;
+    font-size: 1.2rem;
   }
 }
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 125px 1fr 1fr 1fr;
-  grid-template-rows:  100px 1fr 50px 150px;
-  grid-gap: 10px;
   background-image: url(/img/bg-footer-h.jpg);
 }
