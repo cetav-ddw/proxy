@@ -16,15 +16,13 @@ $turquoise: #00DFFD;
 
 // typography
 
+// regular text
+$regular-txt: 'Lexend Deca', sans-serif;
+
+
 // Subtitles
 @font-face {
   font-family: Cooper-Hewitt;
   src: url(//src/fonts/CooperHewitt-Semibold.otf) format('otf');
 }
 
-
-// USING ONLY IN HEADER
-@font-face {
-  font-family: Bugfast;
-  src: url(//src/fonts/Bugfast.otf) format('otf');;
-}
