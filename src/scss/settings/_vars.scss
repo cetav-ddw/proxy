@@ -1,3 +1,16 @@
+// Subtitles
+@font-face {
+  font-family: Cooper-Hewitt;
+  src: url(//src/fonts/CooperHewitt-Semibold.otf) format('otf');
+}
+
+
+// USING ONLY IN HEADER AND MEN
+@font-face {
+  font-family: Bugfast;
+  src: url(//src/fonts/Bugfast.otf) format('otf');;
+}
+
 // primary-colors
 $white: #ffff;
 $green: #16E024;
@@ -16,19 +29,25 @@ $turquoise: #00DFFD;
 
 // typography
 
+// subtitles
+$subtitle:  Cooper-Hewitt, sans-serif;
+
 // regular text
 $regular-txt: 'Lexend Deca', sans-serif;
 
 
-// Subtitles
-@font-face {
-  font-family: Cooper-Hewitt;
-  src: url(//src/fonts/CooperHewitt-Semibold.otf) format('otf');
-}
+// font-sizes
+
+$txt-small: 1em; //p mobile
+
+$txt-medium: 1.37em; //p 
+
+$txt-large:  2.7em; //h4
+
+$txt-x-large: 3.12em; //h3
+
+$txt-huge:  3.75em; //h2
+
+$txt-x-huge: 5.62em; //h1
 
 
-// USING ONLY IN HEADER AND MEN
-@font-face {
-  font-family: Bugfast;
-  src: url(//src/fonts/Bugfast.otf) format('otf');;
-}

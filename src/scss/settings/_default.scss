@@ -1,25 +1,25 @@
 // titles
 h1 {
-  font-size: 5.62em;
+  font-size: $txt-x-huge;
 }
 
 h2 {
   font-family: Cooper-Hewitt;
-  font-size: 3.75em;
+  font-size: $txt-huge;
 
 }
 
 h3 {
   font-family: Cooper-Hewitt;
-  font-size: 3.12em;
+  font-size: $txt-x-large;
 }
 
 h4 {
   font-family: Cooper-Hewitt;
-  font-size: 2.7em;
+  font-size: $txt-large;
 }
 
 p {
   font-family: $regular-txt;
-  font-size: 1.37em;
+  font-size: $txt-medium;
 }
