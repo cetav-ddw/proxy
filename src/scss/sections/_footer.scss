@@ -1,125 +1,7 @@
-.allies__imgs {
-  margin-bottom: 2%;
-  margin-left: 20%;
-  @media (max-width: 768px) {
-    margin-left: 10%;
-  }
-  @media (max-width: 414px) {
-    margin-left: 3%;
-    text-align: center;
-  }
-}
-
-.allies__item {
-  width: 18%;
-  @media (max-width: 768px) {
-    width: 25%;
-  }
-  @media (max-width: 414px) {
-    width: 30%;
-    padding-bottom: 5%;
-  }
-}
-
-.allies__item + .allies__item {
-  padding-left: 3%;
-}
-
-
-.allies__item--size1 {
-  width: 45%;
-  @media (max-width: 768px) {
-    width: 57%;
-  }
-  @media (max-width: 414px) {
-    width: 90%;
-  }
-}
-
-.allies__item--size3 {
-  width: 20%;
-  @media (max-width: 768px) {
-    width: 30%;
-  }
-  @media (max-width: 414px) {
-    width: 40%;
-  }
-} 
-
-.allies__item--size4 {
-  width: 30%;
-  @media (max-width: 768px) {
-    width: 35%;
-  }
-  @media (max-width: 414px) {
-    width: 40%;
-  }
-}
-
-.allies__title {
-  color: #fff;
-  font-family: Cooper-Hewitt;
-  font-size: 2rem;
-  padding-left:5%;
-  @media (max-width: 414px) {
-    font-size: 1.2rem;
-  }
-}
-
-.copy {
-  color: #fff;
-  font-family: "Lexend Deca", sans-serif;
-  font-size: 1.4rem;
-  padding-left: 5%;
-  @media (max-width: 414px) {
-    font-size: 1rem;
-  }
-}
-
-.copy__proxy {
-  color: #fff;
-  font-family: Bugfast;
-  font-size: 1.4rem;
-  @media (max-width: 414px) {
-    font-size: 1rem;
-  }
-}
-
-.copy__contact--bold {
-  color: #fff;
-  font-family: Cooper-Hewitt;
-  font-size: 1.4rem;
-  @media (max-width: 414px) {
-    font-size: 1.2rem;
-  }
-}
-
-.media {
-  padding-bottom: 3%;
-}
-
-.media__icon {
-  padding-top: 1%;
-  width: 3%;
-  @media (max-width: 414px) {
-    width: 8%;
-  }
-}
-
-.media__icon--link + .media__icon--link {
-  padding-left: 2%;
-}
-
-.media__icon--pdl {
-  padding-left: 27%;
-  @media (max-width: 414px) {
-    padding-left: 35%;
-  }
-}
-
 .title-footer {
   padding-left: 5%;  
   padding-top: 5%;
+  margin: 0;
 }
 
 .title-footer__concat { 
@@ -127,11 +9,11 @@
   font-family: Cooper-Hewitt;
   font-size: 1.5rem;
   padding-left: 1%;
-  @media (max-width: 768px) {
-    font-size: 1.2rem;
+  @media (min-width: 414px) {
+    font-size: 1.5rem;
   }
-  @media (max-width: 414px) {
-    font-size: 1rem;
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
   }
 }
 
@@ -139,11 +21,11 @@
   color: #fff;
   font-family: Bugfast;
   font-size: 1.5rem;
-  @media (max-width: 768px) {
-    font-size: 1,2rem;
+  @media (min-width: 414px) {
+    font-size: 1.5rem;
   }
-  @media (max-width: 414px) {
-    font-size: 1rem;
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
   }
 }
 
@@ -152,11 +34,11 @@
   font-family: "Space Mono", monospace;
   font-size: 2rem;
   padding-left: 1%;
-  @media (max-width: 768px) {
+  @media (min-width: 414px) {
     font-size: 1.5rem;
   }
-  @media (max-width: 414px) {
-    font-size: 1.2rem;
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
   }
 }
 
