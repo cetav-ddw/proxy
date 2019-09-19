@@ -1,21 +1,22 @@
 // titles
 h1 {
+  font-family: $proxy-txt; 
   font-size: $txt-x-huge;
 }
 
 h2 {
-  font-family: Cooper-Hewitt;
+  font-family: $subtitle;
   font-size: $txt-huge;
 
 }
 
 h3 {
-  font-family: Cooper-Hewitt;
+  font-family: $subtitle;
   font-size: $txt-x-large;
 }
 
 h4 {
-  font-family: Cooper-Hewitt;
+  font-family: $subtitle;
   font-size: $txt-large;
 }
 

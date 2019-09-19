@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path');  /* eslint-disable */
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
@@ -63,6 +63,15 @@ module.exports = {
             },
           },
         ],
+      },
+      { test: /\.(eot|svg|ttf|woff|woff2)$/,
+        exclude: /node_modules/,
+        loader: 'url-loader',
+        options: {
+          publicPath: './fonts/',
+          name: '../fonts/[name].[ext]',
+          limit: 1000
+        }
       },
     ],
   },
