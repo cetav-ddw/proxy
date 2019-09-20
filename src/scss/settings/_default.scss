@@ -1,21 +1,22 @@
 // titles
 h1 {
-  font-size: $txt-x-huge;
+  font-family: $title; 
+  font-size: $txt-huge;
 }
 
 h2 {
-  font-family: $subtitle;
+  font-family: $title;
   font-size: $txt-huge;
 
 }
 
 h3 {
-  font-family: $subtitle;
+  font-family: $title;
   font-size: $txt-x-large;
 }
 
 h4 {
-  font-family: $subtitle;
+  font-family: $title;
   font-size: $txt-large;
 }
 
