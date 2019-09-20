@@ -6,7 +6,9 @@
 @import './sections/header';
 @import './sections/main';
 @import './sections/footer';
-@import './partials/general';
+@import './components/allies';
+@import './components/copy';
+@import './components/media';
 
 body {
   padding: 0;
