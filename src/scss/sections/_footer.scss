@@ -1,0 +1,50 @@
+.title-footer {
+  padding-left: 5%;  
+  padding-top: 5%;
+  margin: 0;
+}
+
+.title-footer__concat { 
+  color: #fff;
+  font-family: Cooper-Hewitt;
+  font-size: 1.5rem;
+  padding-left: 1%;
+
+  @media (min-width: 414px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.title-footer__proxy {
+  color: #fff;
+  font-family: Bugfast;
+  font-size: 1.5rem;
+
+  @media (min-width: 414px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.title-footer__wrong {
+  color: #fff;
+  font-family: "Space Mono", monospace;
+  font-size: 2rem;
+  padding-left: 1%;
+
+  @media (min-width: 414px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+footer {
+  background-image: url(/img/bg-footer-h.jpg);
+}

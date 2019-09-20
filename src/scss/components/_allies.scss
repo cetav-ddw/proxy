@@ -1,0 +1,55 @@
+.allies__imgs {
+  margin-bottom: 2%;
+  margin-left: 20%;
+  text-align: center;
+
+  @media (min-width: 414px) {
+    margin-left: 1%;
+    margin-right: 5%;
+  }
+  @media (min-width: 768px) {
+    margin-left: 10%;
+  }
+}
+
+.allies__item {
+  width: 8%;
+
+  @media (min-width: 414px) {
+    width: 30%;
+    padding-bottom: 5%;
+  }
+  @media (min-width: 768px) {
+    width: 20%;
+  }
+}
+
+.allies__item--size {
+  width: 5%;
+
+  @media (min-width: 414px) {
+    width: 18%;
+    padding-bottom: 5%;
+  }
+  @media (min-width: 768px) {
+    width: 11%;
+  }
+}
+
+.allies__item + .allies__item {
+  padding-left: 3%;
+}
+
+.allies__title {
+  color: #fff;
+  font-family: Cooper-Hewitt;
+  font-size: 2rem;
+  padding-left:5%;
+  
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
+  }
+  @media (min-width: 414px) {
+    font-size: 2rem;
+  }
+}

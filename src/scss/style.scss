@@ -5,3 +5,11 @@
 @import './sections/header';
 @import './sections/main';
 @import './sections/footer';
+@import './components/allies';
+@import './components/copy';
+@import './components/media';
+
+body {
+  padding: 0;
+  margin: 0;
+}
