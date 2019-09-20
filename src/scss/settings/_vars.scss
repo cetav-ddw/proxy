@@ -1,22 +1,22 @@
 // USING ONLY IN HEADER AND MEN
 @font-face {
   font-family: 'Bugfast', 'Arial', sans-serif;
-  src: url('//src/fonts/Bugfast.otf') format('otf'),
-       url('//src/fonts/bugfast-webfont.woff2') format('woff2'),
-       url('//src/fonts/bugfast-webfont.woff') format('woff');
+  src: url('/src/fonts/Bugfast.otf') format('otf'),
+       url('/src/fonts/bugfast-webfont.woff2') format('woff2'),
+       url('/src/fonts/bugfast-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face{
-  font-family: 'Cooper-Hewitt',  'Arial', sans-serif;
+  font-family: 'Cooper-Hewitt', 'Arial', sans-serif;
   src: url('/src/fonts/CooperHewitt-Medium.otf') format('otf');
 }
 
 // primary-colors
 $white: #ffff;
 $green: #16E024;
-$black: #000000;
+$black: #000;
 
 // glitch
 $white-blue: #00dffd;
@@ -29,9 +29,9 @@ $turquoise: #00DFFD;
 
 // typography
 //proxy 
-$proxy-txt: 'bugfast';
+$proxy-txt: 'Bugfast';
 // subtitles
-$title:  'Cooper-Hewitt', 'Arial', sans-serif;
+$title: 'Cooper-Hewitt', 'Arial', sans-serif;
 // regular text
 $regular-txt: 'Lexend Deca', 'Helvetica',sans-serif;
 

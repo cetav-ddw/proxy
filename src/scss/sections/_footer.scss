@@ -5,35 +5,29 @@
 }
 
 .title-footer__concat { 
-  color: #fff;
-  font-family: Cooper-Hewitt;
+  color: $white;
+  font-family: $title;
   font-size: 1.5rem;
   padding-left: 1%;
 
-  @media (min-width: 414px) {
-    font-size: 1.5rem;
-  }
   @media (min-width: 768px) {
     font-size: 2rem;
   }
 }
 
 .title-footer__proxy {
-  color: #fff;
-  font-family: Bugfast;
+  color: $white;
+  font-family: $proxy-txt;
   font-size: 1.5rem;
 
-  @media (min-width: 414px) {
-    font-size: 1.5rem;
-  }
   @media (min-width: 768px) {
     font-size: 2rem;
   }
 }
 
 .title-footer__wrong {
-  color: #fff;
-  font-family: "Space Mono", monospace;
+  color: $white;
+  font-family: $regular-txt;
   font-size: 2rem;
   padding-left: 1%;
 
@@ -46,5 +40,5 @@
 }
 
 footer {
-  background-image: url(/img/bg-footer-h.jpg);
+  background: transparent url("/img/bg-footer-h.jpg") no-repeat;
 }
