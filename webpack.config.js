@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path');  /* eslint-disable */
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
