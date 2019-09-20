@@ -64,15 +64,6 @@ module.exports = {
           },
         ],
       },
-      { test: /\.(eot|svg|ttf|woff|woff2)$/,
-        exclude: /node_modules/,
-        loader: 'url-loader',
-        options: {
-          publicPath: './fonts/',
-          name: '../fonts/[name].[ext]',
-          limit: 1000
-        }
-      },
     ],
   },
   plugins: [
