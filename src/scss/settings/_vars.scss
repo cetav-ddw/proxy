@@ -1,13 +1,3 @@
-// USING ONLY IN HEADER AND MEN
-@font-face {
-  font-family: 'Bugfast', 'Arial', sans-serif;
-  src: url('/src/fonts/Bugfast.otf') format('otf'),
-       url('/src/fonts/bugfast-webfont.woff2') format('woff2'),
-       url('/src/fonts/bugfast-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @font-face{
   font-family: 'Cooper-Hewitt', 'Arial', sans-serif;
   src: url('/src/fonts/CooperHewitt-Medium.otf') format('otf');
@@ -27,9 +17,6 @@ $pink: #fd39d2;
 $blue: #2616e0;
 $turquoise: #00DFFD;
 
-// typography
-//proxy 
-$proxy-txt: 'Bugfast';
 // subtitles
 $title: 'Cooper-Hewitt', 'Arial', sans-serif;
 // regular text
