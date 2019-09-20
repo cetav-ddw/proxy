@@ -1,12 +1,12 @@
 @font-face{
-  font-family: 'Cooper-Hewitt',  'Arial', sans-serif;
+  font-family: 'Cooper-Hewitt', 'Arial', sans-serif;
   src: url('/src/fonts/CooperHewitt-Medium.otf') format('otf');
 }
 
 // primary-colors
 $white: #ffff;
 $green: #16E024;
-$black: #000000;
+$black: #000;
 
 // glitch
 $white-blue: #00dffd;
@@ -17,17 +17,15 @@ $pink: #fd39d2;
 $blue: #2616e0;
 $turquoise: #00DFFD;
 
-// typography
-
 // subtitles
-$title:  'Cooper-Hewitt', 'Arial', sans-serif;
+$title: 'Cooper-Hewitt', 'Arial', sans-serif;
 // regular text
 $regular-txt: 'Lexend Deca', 'Helvetica',sans-serif;
 
 // font-sizes
-$txt-small: 1em; //p mobile
-$txt-medium: 1.37em; //p 
-$txt-large:  2.7em; //h4
-$txt-x-large: 3.12em; //h3
-$txt-huge:  3.75em; //h2
-$txt-x-huge: 5.62em; //h1
+$txt-small: 1em;
+$txt-medium: 1.37em;
+$txt-large:  2.7em;
+$txt-x-large: 3.12em;
+$txt-huge:  3.75em;
+$txt-x-huge: 5.62em;

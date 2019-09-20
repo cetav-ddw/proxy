@@ -1,0 +1,44 @@
+.title-footer {
+  padding-left: 5%;  
+  padding-top: 5%;
+  margin: 0;
+}
+
+.title-footer__concat { 
+  color: $white;
+  font-family: $title;
+  font-size: 1.5rem;
+  padding-left: 1%;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.title-footer__proxy {
+  color: $white;
+  font-family: $proxy-txt;
+  font-size: 1.5rem;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.title-footer__wrong {
+  color: $white;
+  font-family: $regular-txt;
+  font-size: 2rem;
+  padding-left: 1%;
+
+  @media (min-width: 414px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+footer {
+  background: transparent url("/img/bg-footer-h.jpg") no-repeat;
+}

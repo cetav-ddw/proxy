@@ -1,0 +1,36 @@
+.copy {
+  color: $white;
+  font-family: $regular-txt;
+  font-size: 1.4rem;
+  padding-left: 5%;
+
+  @media (min-width: 414px) {
+    font-size: 1rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
+  }
+}
+
+.copy__proxy {
+  color: $white;
+  font-family: $proxy-txt;
+  font-size: 1.4rem;
+
+  @media (min-width: 414px) {
+    font-size: 1rem;
+  }
+  @media (min-width: 768px) {
+    font-size: 1.2rem;
+  }
+}
+
+.copy__contact {
+  color: $white;
+  font-family: $title;
+  font-size: 1.4rem;
+  
+  @media (min-width: 414px) {
+    font-size: 1.2rem;
+  }
+}
