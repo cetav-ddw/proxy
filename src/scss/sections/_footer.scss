@@ -17,7 +17,7 @@
 
 .title-footer__proxy {
   color: $white;
-  font-family: $proxy-txt;
+  font-family: $regular-txt;
   font-size: 1.5rem;
 
   @media (min-width: 768px) {
@@ -41,4 +41,5 @@
 
 footer {
   background: transparent url("/img/bg-footer-h.jpg") no-repeat;
+  background-size: cover;
 }

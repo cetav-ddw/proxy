@@ -1,0 +1,165 @@
+.btn-nav {
+  background: transparent;
+  border: 1.5px solid $green;
+  border-radius: 50%;
+  height: 30px;
+  line-height: 150px;
+  opacity: 1;
+  outline: none;
+  position: absolute;
+  width: 30px;
+
+  &:hover {
+    border: 1.5px solid transparent;
+    transition:
+      border-top-color .15s linear, 
+      border-right-color .15s linear .10s,
+      border-bottom-color .15s linear .14s;
+  }
+
+  &::after {
+    border: 3px solid transparent;
+    background: $green;
+    border-radius: 50%;
+    content: "";
+    height: 3px;
+    left: 9px;
+    position: absolute;
+    top: 9px;
+    width: 3px;
+  }
+  
+  &::before {
+    color: $white;
+    display: inline;
+    font-family: $regular-txt;
+    font-weight: bold;
+    height: 10px;
+    left: -50px;
+    padding: 5px; 
+    position: relative;
+    top: -65px;
+  
+    @media (min-width: $breakpoint-md) {
+      font-size: 1.2rem;
+      left: -60px;
+    }
+  }
+}
+
+
+.btn-nav--open::before {
+  content: "menú";
+  z-index: 1;
+}
+
+.btn-nav--close::before {
+  content: "close";
+  z-index: 2;
+}
+
+.btn-nav--open {
+  right: 5%;
+  top: 10%;
+
+  @media (min-width: $breakpoint-lg) {
+    top: 160px;
+  }
+}
+
+.btn-nav--close {
+  right: 5%;
+  top: 10%;
+}
+
+.wrapper-nav {
+  background: $black;
+  display: flex;
+  height: 100vh;
+  opacity: 0;
+  position: absolute;
+  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+// js class
+
+.nav-open {
+  background: $black;
+  display: flex;
+  height: 100vh;
+  opacity: 1;
+  position: fixed;
+  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-list {
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-list__item {
+  margin-bottom: 60px;
+
+  @media (min-width: $breakpoint-md) {
+    margin-bottom: 100px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    margin-bottom: 55px;
+  }
+}
+
+.nav-list__link {
+  color: $white;
+  font-family: $regular-txt;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 3px;
+
+  @media ( min-width: $breakpoint-md) {
+    font-size: 3.5rem;
+  }
+}
+
+.nav-list__link:hover {
+  background: url('/img/bg-footer-h.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-clip: text;
+    -webkit-background-clip: text;
+  color: transparent;
+}
+
+.line-decoration {
+  border-right: 1px solid $green;
+  height: 100%;
+  opacity: .6;
+  width: 55%;
+}
+
+.last {
+  border-right: 0 transparent;
+}

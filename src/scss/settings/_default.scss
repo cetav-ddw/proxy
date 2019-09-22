@@ -1,4 +1,18 @@
 // titles
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  outline: none;
+}
+
 h1 {
   font-family: $title; 
   font-size: $txt-huge;
@@ -7,7 +21,6 @@ h1 {
 h2 {
   font-family: $title;
   font-size: $txt-huge;
-
 }
 
 h3 {
@@ -23,4 +36,8 @@ h4 {
 p {
   font-family: $regular-txt;
   font-size: $txt-medium;
+}
+
+a {
+  text-decoration: none;
 }

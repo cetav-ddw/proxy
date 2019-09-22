@@ -1,0 +1,13 @@
+.animation-image {
+  animation: animate-image linear 20s infinite;
+  left: 0;
+  position: relative;
+  transform: translate(-100%);
+  display: flex;
+  width: 100%;
+}
+
+.animation-image__image {
+  max-width: 100%;
+  margin: 0 20px;
+}
