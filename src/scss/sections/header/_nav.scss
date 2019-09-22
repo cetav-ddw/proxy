@@ -138,19 +138,19 @@
   text-decoration: none;
   letter-spacing: 3px;
 
+  &:hover {
+    background: url('/img/bg-footer-h.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-clip: text;
+      -webkit-background-clip: text;
+    color: transparent;
+  }
+
   @media ( min-width: $breakpoint-md) {
     font-size: 3.5rem;
   }
-}
-
-.nav-list__link:hover {
-  background: url('/img/bg-footer-h.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-clip: text;
-    -webkit-background-clip: text;
-  color: transparent;
 }
 
 .line-decoration {
