@@ -1,4 +1,4 @@
-(function() {
+(function navegation() {
   const btnOpen = document.querySelector('#open');
   const body = document.querySelector('body');
   const nav = document.querySelector('.wrapper-nav');
@@ -9,8 +9,8 @@
   }
   function closeNav() {
     nav.className = 'wrapper-nav';
-    body.style.overflow = 'initial'
+    body.style.overflow = 'initial';
   }
   btnOpen.addEventListener('click', openNav);
   btnClose.addEventListener('click', closeNav);
-}())
+}());

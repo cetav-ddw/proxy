@@ -233,7 +233,7 @@
 .wrapper-text__details {
   bottom: 5%;
   position: relative;
-  right: 0%;
+  right: 0;
 
   @media (min-width: $breakpoint-md) {
     position: absolute;
@@ -246,7 +246,7 @@
 
 .wrapper-text__details--right {
   bottom: 5%;
-  left:0%;
+  left:0;
   position: relative;
 
   @media (min-width: $breakpoint-md) {
