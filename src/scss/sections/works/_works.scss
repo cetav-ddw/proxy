@@ -1,0 +1,211 @@
+.works__title {
+  margin: 30px 0;
+
+  @media ( min-width: $breakpoint-md) {
+    margin-bottom: 70px;
+	}
+}
+
+.works__content-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 50px 0 60px 0;
+  padding: 0 30px;
+
+  @media ( min-width: $breakpoint-md) {
+    flex-direction: row;
+    justify-content: initial;
+    margin: 50px 0;
+    padding: 30px;
+	}
+}
+
+.wrapper-images {
+  position: relative;
+  width: 75%;
+
+  @media ( min-width: $breakpoint-md) {
+    width: 45%;
+	}
+}
+
+.wrapper-image--right {
+  order: 1;
+
+  @media ( min-width: $breakpoint-md) {
+    order: 2;
+  }
+}
+
+.wrapper-image__image {
+  max-width: 100%;
+}
+
+.wrapper-image::after {
+  color: white;
+  content: "Lorrede Asns Baahsah";
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+
+  @media ( min-width: $breakpoint-md) {
+    font-size:  2.5rem;
+    right: -40px;
+  }
+}
+
+.wrapper-image--right::after {
+  content: "David gonzales ramirez";
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 80%;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 20%;
+
+  @media ( min-width: $breakpoint-md) {
+    font-size:  2.5rem;
+    left: -55%;
+    order: 1;
+    text-align: right;
+    width: 60%;
+  }
+}
+
+.wrapper-text {
+  color: white;
+  padding: 0;
+  position: relative;
+  width: 100%;
+
+  @media ( min-width: $breakpoint-md) {
+    padding: 0 40px;
+    width: 55%;
+  }
+}
+
+.wrapper-text--right {
+  order: 2;
+
+  @media ( min-width: $breakpoint-md) {
+    order: 1;
+    padding: 0 40px;
+    width: 55%;
+  }
+}
+
+.wrapper-text::before {
+  content: "Obra";
+  color: white;
+  display: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: .7;
+  position: absolute;
+  width: 20%;
+
+  @media ( min-width: $breakpoint-md) {
+    display: block;
+    font-size: 1.4rem;
+  }
+}
+
+.wrapper-text::before {
+  left: 35px;
+  top: 50%;
+
+  @media ( min-width: $breakpoint-md) {
+    left: 15px;
+    top: 40%;
+  }
+}
+
+.wrapper-text--right::before {
+  right: -70px;
+
+  @media ( min-width: $breakpoint-md) {
+    left: 85%;
+  }
+}
+
+.wrapper-text::after {
+  background: white;
+  content: "";
+  height: 2px;
+  opacity: .7;
+  width: 60px;
+  left: 15px;
+  position: absolute;
+  top: 60%;
+
+  @media ( min-width: $breakpoint-md) {
+    display: block;
+    top: 50%;
+  }
+}
+
+.wrapper-text--right::after {
+  right: 15px;
+
+  @media ( min-width: $breakpoint-md) {
+    left: 85%;
+  }
+}
+
+.wrapper-text__paragraph {
+  color: white;
+  bottom: 15%;
+  font-size: 1.1rem;
+  opacity: .7;
+  position: relative;
+  width: 100%;
+
+  @media ( min-width: $breakpoint-md) {
+    bottom: 10%;
+    position: absolute;
+    width: 90%;
+  }
+}
+
+.wrapper-text--rigth__paragraph {
+  color: white;
+  bottom: 20%;
+  font-size: 1.1rem;
+  opacity: .7;
+  position: relative;
+  right: 0;
+  width: 100%;
+
+  @media ( min-width: $breakpoint-md) {
+    bottom: 10%;
+    position: absolute;
+    right: 5%;
+    width: 90%;
+  }
+}
+
+.wrapper-text__details {
+  bottom: 5%;
+  position: relative;
+  right: 0%;
+
+  @media ( min-width: $breakpoint-md) {
+    position: absolute;
+  }
+}
+
+.wrapper-text--right__details {
+  bottom: 5%;
+  left:0%;
+  position: relative;
+
+  @media ( min-width: $breakpoint-md) {
+    position: absolute;
+  }
+}

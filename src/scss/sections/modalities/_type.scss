@@ -1,0 +1,142 @@
+.title-ui {
+  color: $white;
+  font-family: $title;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  text-align: center;
+
+  @media ( min-width: $breakpoint-lg) {
+    font-size: 4rem;
+  }
+}
+
+.modalities__title {
+  margin: 60px 0;
+  padding: 0;
+
+  @media ( min-width: $breakpoint-lg) {
+    margin: 80px 0 100px 0;
+  }
+}
+
+.column-type {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 30px 0;
+  
+  @media ( min-width: $breakpoint-md) {
+    flex-direction: row;
+    margin: 70px 30px;
+  }
+}
+
+.column-type__content {
+  max-width: 90%;
+  order: 2;
+  padding: 0 20px; 
+
+  @media ( min-width: $breakpoint-md) {
+    max-width: 60%;
+    order: 1;
+  }
+  
+  @media ( min-width: $breakpoint-lg) {
+    margin: 60px 0;
+    padding: 0 40px;
+  }
+}
+
+.column-type__video {
+  max-width: 100%;
+  order: 1;
+  padding: 0 20px;
+
+  @media ( min-width: $breakpoint-md) {
+    max-width: 40%;
+  }
+
+  @media ( min-width: $breakpoint-lg) {
+    padding: 0 40px;
+  }
+}
+
+.content-title {
+  color: $white;
+  font-family: $title;
+  font-size: 1.5rem;
+  margin: 5px 0 30px 0;
+  position: relative;
+  width: 100%;
+
+  &::before {
+    background: $white;
+    bottom: -20px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 60px;
+  }
+  
+  @media ( min-width: $breakpoint-lg) {
+    font-size: 2.5rem;
+  }
+}
+
+
+.content-text {
+  color: $white;
+  font-size: 1rem;
+  font-family:$regular-txt;
+  margin: 15px 0;
+  opacity: .7;
+  width: 100%;
+
+  @media ( min-width: $breakpoint-lg) {
+    font-size: 1.4rem;
+    padding: 30px 0;
+  }
+}
+
+.details-ui {
+  color: $white;
+  display: block;
+  font-size: .8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  opacity: .7;
+
+  @media ( min-width: $breakpoint-lg) {
+    font-size: 1rem;
+  }
+}
+
+.column-type__title--right {
+
+  &::before {
+    @media ( min-width: $breakpoint-md) {
+      right: 0;
+    }
+  }
+
+  @media ( min-width: $breakpoint-md) {
+    text-align: right;
+  }
+}
+
+.column-type__text--right {
+  font-family: $regular-txt;
+  left: 0;
+  text-align: left;
+
+  @media ( min-width: $breakpoint-md) {
+    right: 0;
+    text-align: right;
+  }
+}
+
+.column-type__details--right {
+  @media ( min-width: $breakpoint-md) {
+    text-align: right;
+  }
+}

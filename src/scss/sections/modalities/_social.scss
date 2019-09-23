@@ -1,0 +1,56 @@
+.wrapper-social {
+  display: grid;
+  justify-content: center;
+  grid-template-areas: "insta face"
+                      "title title";
+  margin: 10px;
+}
+
+.insta {
+  background: url('/img/insta-verde.svg');
+  grid-area: insta;
+  height: 27px;
+  width: 26px;
+
+  @media ( min-width: $breakpoint-md) {
+    height: 43px;
+    width: 43px;
+  }
+}
+
+.face {
+  background: url('/img/face-verde.svg');
+  grid-area: face;
+  height: 29px;
+  width: 23px;
+
+  @media ( min-width: $breakpoint-md) {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.wrapper-social__icon {
+  background-repeat: no-repeat;
+  margin: 5px;
+}
+
+.wrapper-social__title {
+  color: $green;
+  font-family: $title;
+  font-size: 1rem;
+  font-weight: bold;
+  grid-area: title;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+
+  @media ( min-width: $breakpoint-md) {
+    font-size: 1.2rem;
+  }
+
+  @media ( min-width: $breakpoint-lg) {
+    font-size: 1.5rem;
+  }
+}
