@@ -41,3 +41,42 @@ p {
 a {
   text-decoration: none;
 }
+
+.details-ui {
+  color: $white;
+  display: block;
+  font-size: .8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative;
+
+  &:after{
+    animation: glitch 1.5s infinite linear;
+    background: $black;
+    content:"mas detalles +";
+    color: $white;
+    top: -5;
+    left: -6px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-shadow: 1px -1px  1px $turquoise;
+  }
+  
+  &:before{
+    animation: glitch 1.5s infinite linear;
+    background: $black;
+    content:"mas detalles +";
+    color: $white;
+    top: 0;
+    left: 5px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-shadow: -1px 1px  1px $turquoise;
+  }
+
+  @media ( min-width: $breakpoint-lg) {
+    font-size: 1rem;
+  }
+}

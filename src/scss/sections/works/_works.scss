@@ -207,6 +207,10 @@
 
   @media (min-width: $breakpoint-lg) {
     width: 85%;
+  }
+  
+  @media (min-width: $breakpoint-xl) {
+    bottom: 15%;
 	}
 }
 
@@ -228,6 +232,10 @@
 
   @media (min-width: $breakpoint-lg) {
     width: 85%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    bottom: 15%;
 	}
 }
 
@@ -269,12 +277,39 @@
   font-size: .9rem;
   margin: 0 auto;
   padding: 10px;
+  position: relative;
+  transition: all .35s;
   text-align: center;
   width: 180px;
+
+  &:hover{
+    color: $green;
+  }
+
+  &:hover:after{
+    width: 100%;
+  }
+
+  &:after{
+    background: $white;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all .25s;
+    width: 0;
+  }
 
   @media (min-width: $breakpoint-lg) {
     font-size: 1rem;
     padding: 15px;
     width: 220px;
 	}
+}
+
+.modalities__btn-obras span{
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
 }
