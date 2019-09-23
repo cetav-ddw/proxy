@@ -1,7 +1,7 @@
 .works__title {
   margin: 30px 0;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     margin-bottom: 70px;
 	}
 }
@@ -13,11 +13,15 @@
   margin: 50px 0 60px 0;
   padding: 0 30px;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     flex-direction: row;
     justify-content: initial;
     margin: 50px 0;
     padding: 30px;
+  }
+  
+  @media (min-width: $breakpoint-lg) {
+    padding: 60px;
 	}
 }
 
@@ -25,15 +29,23 @@
   position: relative;
   width: 75%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     width: 45%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    width: 35%;
+  }
+  
+  @media (min-width: $breakpoint-xl) {
+    width: 30%;
 	}
 }
 
 .wrapper-image--right {
   order: 1;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     order: 2;
   }
 }
@@ -52,10 +64,14 @@
   top: 0;
   width: 20%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     font-size:  2.5rem;
     right: -40px;
   }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 3rem;
+	}
 }
 
 .wrapper-image--right::after {
@@ -69,13 +85,17 @@
   top: 0;
   width: 20%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     font-size:  2.5rem;
     left: -55%;
     order: 1;
     text-align: right;
     width: 60%;
   }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 3rem;
+	}
 }
 
 .wrapper-text {
@@ -84,16 +104,20 @@
   position: relative;
   width: 100%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     padding: 0 40px;
     width: 55%;
   }
+
+  @media (min-width: $breakpoint-xl) {
+    width: 70%;
+	}
 }
 
 .wrapper-text--right {
   order: 2;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     order: 1;
     padding: 0 40px;
     width: 55%;
@@ -110,7 +134,7 @@
   position: absolute;
   width: 20%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     display: block;
     font-size: 1.4rem;
   }
@@ -120,16 +144,20 @@
   left: 35px;
   top: 50%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     left: 15px;
     top: 40%;
   }
+
+  @media (min-width: $breakpoint-lg) {
+    top: 45%;
+	}
 }
 
 .wrapper-text--right::before {
   right: -70px;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     left: 85%;
   }
 }
@@ -144,16 +172,20 @@
   position: absolute;
   top: 60%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     display: block;
     top: 50%;
   }
+
+  @media (min-width: $breakpoint-lg) {
+    top: 55%;
+	}
 }
 
 .wrapper-text--right::after {
   right: 15px;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     left: 85%;
   }
 }
@@ -166,14 +198,18 @@
   position: relative;
   width: 100%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     bottom: 10%;
     position: absolute;
     width: 90%;
   }
+
+  @media (min-width: $breakpoint-lg) {
+    width: 85%;
+	}
 }
 
-.wrapper-text--rigth__paragraph {
+.wrapper-text__paragraph--rigth {
   color: white;
   bottom: 20%;
   font-size: 1.1rem;
@@ -182,12 +218,16 @@
   right: 0;
   width: 100%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     bottom: 10%;
     position: absolute;
     right: 5%;
     width: 90%;
   }
+
+  @media (min-width: $breakpoint-lg) {
+    width: 85%;
+	}
 }
 
 .wrapper-text__details {
@@ -195,17 +235,25 @@
   position: relative;
   right: 0%;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     position: absolute;
   }
+
+  @media (min-width: $breakpoint-lg) {
+    right: 10%;
+	}
 }
 
-.wrapper-text--right__details {
+.wrapper-text__details--right {
   bottom: 5%;
   left:0%;
   position: relative;
 
-  @media ( min-width: $breakpoint-md) {
+  @media (min-width: $breakpoint-md) {
     position: absolute;
   }
+
+  @media (min-width: $breakpoint-lg) {
+    left: 10%;
+	}
 }
