@@ -1,16 +1,24 @@
 .media {
-  padding-bottom: 3%;
+  padding-bottom: 5%;
+
+  @media (min-width: $breakpoint-xl) {
+    padding-bottom: 1%;
+  }
 }
 
 .media__icon {
-  padding-top: 1%;
-  width: 3%;
+  width: 10%;
 
-  @media (min-width: 414px) {
-    width: 8%;
-  }
-  @media (min-width: 768px) {
+  @media (min-width: $breakpoint-md) {
     width: 5%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    width: 4%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    width: 2.5%;
   }
 }
 
@@ -19,12 +27,13 @@
 }
 
 .media__icon--pdl {
-  padding-left: 25%;
-  
-  @media (min-width: 414px) {
-    padding-left: 35%;
+  padding-left: 40%;
+
+  @media (min-width: $breakpoint-lg) {
+  padding-left: 35%;
   }
-  @media (min-width: 768px) {
-    padding-left: 43%;
+
+  @media (min-width: $breakpoint-xl) {
+    padding-left: 22%;
   }
 }

@@ -1,41 +1,59 @@
+.img-footer__proxy {
+  padding: 10% 0 0 5%;
+  width: 25%;
+
+  @media (min-width: $breakpoint-md) {
+    width: 18%;
+    padding: 5% 0 0 5%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    width: 7%;
+    padding: 2% 0 0 5%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    width: 6%;
+  }
+}
+
 .title-footer {
-  padding-left: 5%;  
-  padding-top: 5%;
   margin: 0;
+  padding: 6% 6% 1% 6%;
 }
 
 .title-footer__concat { 
   color: $white;
   font-family: $title;
-  font-size: 1.5rem;
-  padding-left: 1%;
+  font-size: $txt-small;
 
-  @media (min-width: 768px) {
-    font-size: 2rem;
-  }
-}
-
-.title-footer__proxy {
-  color: $white;
-  font-family: $proxy-txt;
-  font-size: 1.5rem;
-
-  @media (min-width: 768px) {
-    font-size: 2rem;
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-medium;
   }
 }
 
 .title-footer__wrong {
-  color: $white;
-  font-family: $regular-txt;
-  font-size: 2rem;
-  padding-left: 1%;
+  position: relative;
+  top: 4px;
+  width: 35%;
 
-  @media (min-width: 414px) {
-    font-size: 1.5rem;
+  @media (min-width: $breakpoint-md) {
+    padding-left: 1%;
+    top: 8px;
+    width: 25%;
   }
-  @media (min-width: 768px) {
-    font-size: 2rem;
+  @media (min-width: $breakpoint-lg) {
+    width: 10%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    top: 5px;
+    width: 12%;
+  }
+
+  @media (min-width: 1680px) {
+    top: 8px;
+    width: 9%;
   }
 }
 

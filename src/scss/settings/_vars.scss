@@ -23,9 +23,15 @@ $title: 'Cooper-Hewitt', 'Arial', sans-serif;
 $regular-txt: 'Lexend Deca', 'Helvetica',sans-serif;
 
 // font-sizes
-$txt-small: 1em;
-$txt-medium: 1.37em;
-$txt-large:  2.7em;
-$txt-x-large: 3.12em;
-$txt-huge:  3.75em;
-$txt-x-huge: 5.62em;
+$txt-small: 1rem;
+$txt-medium: 1.5rem;
+$txt-large:  2rem;
+$txt-x-large: 3.12rem;
+$txt-huge:  3.75rem;
+$txt-x-huge: 5.62rem;
+
+// Breakpoints
+
+$breakpoint-md: 780px;
+$breakpoint-lg: 980px;
+$breakpoint-xl: 1100px;
