@@ -11,14 +11,33 @@
 }
 
 .proxy__img {
-  width: 29%;
+  background: url(/img/proxy.png);
+  background-position: center center;
+  background-size: 93% 50%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 24px;
+  padding: 5% 0 0 10%;
+  position: relative;
+  top: 9px;
+  width: 19%;
 
   @media (min-width: $breakpoint-md) {
-    width: 15%;
+    height: 12px;
+    top: 13px;
+    width: 6%;
   }
 
   @media (min-width: $breakpoint-lg) {
-    width: 6%;
+    height: 10px;
+    top: 15px;
+    width: 4%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    height: 3px;
+    top: 15px;
+    width: 1%;
   }
 }
 

@@ -28,7 +28,7 @@
 
   @media (min-width: $breakpoint-xl) {
     padding: 1% 0 2% 2%;
-    width: 10%;
+    width: 15%;
   }
 }
 
@@ -57,17 +57,19 @@
 
   @media (min-width: $breakpoint-lg) {
     display: inline-block;
-    padding: 1% 0 2% 3%;
+    padding: 1% 0 5% 3%;
     width: 12%;
   }
 
   @media (min-width: $breakpoint-xl) {
-    width: 7%;
+    padding: 1% 0 2% 3%;
+    width: 9%;
   }
 }
 
 .allies__item--size2{
   @media (min-width: $breakpoint-xl) {
+    padding: 1% 0 5% 3%;
     width: 20%;
   }
 }
