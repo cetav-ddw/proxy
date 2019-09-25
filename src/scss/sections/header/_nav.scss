@@ -73,8 +73,12 @@
   right: 5%;
   top: 10%;
 
+  @media (min-width: $breakpoint-lg) {
+    top: 160px;
+  }
+
   @media (min-width: $breakpoint-xl) {
-    top: 150px;
+    top: 160px;
   }
 }
 
@@ -134,7 +138,7 @@
   }
 
   @media (min-width: $breakpoint-lg) {
-    margin: 30px;
+    margin: 50px;
   }
 }
 
