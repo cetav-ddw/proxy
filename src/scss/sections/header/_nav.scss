@@ -7,7 +7,10 @@
   opacity: 1;
   outline: none;
   position: absolute;
+  transition: 1s ease-in-out;
+  visibility: visible;
   width: 30px;
+  z-index: 3;
 
   &:hover {
     border: 1.5px solid transparent;
@@ -23,9 +26,9 @@
     border-radius: 50%;
     content: "";
     height: 3px;
-    left: 9px;
+    left: 8.7px;
     position: absolute;
-    top: 9px;
+    top: 9.3px;
     width: 3px;
   }
   
@@ -47,15 +50,12 @@
   }
 }
 
-
 .btn-nav--open::before {
   content: "menú";
-  z-index: 1;
 }
 
 .btn-nav--close::before {
   content: "close";
-  z-index: 2;
 }
 
 .btn-nav--open {
@@ -67,7 +67,8 @@
   }
 
   @media (min-width: $breakpoint-xl) {
-    top: 230px;
+    top: 170px;
+  
   }
 }
 
@@ -121,18 +122,18 @@
 }
 
 .nav-list__item {
-  margin-bottom: 60px;
+  margin: 30px;
 
   @media (min-width: $breakpoint-md) {
-    margin-bottom: 100px;
+    margin: 50px;
   }
 
   @media (min-width: $breakpoint-lg) {
-    margin-bottom: 55px;
+    margin: 60px;
   }
 
   @media (min-width: $breakpoint-lg) {
-    margin-bottom: 125px;
+    margin: 30px;
   }
 }
 
