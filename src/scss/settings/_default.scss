@@ -53,8 +53,8 @@ a {
   &:after{
     animation: glitch 1.5s infinite linear;
     background: $black;
-    content:"mas detalles +";
     color: $white;
+    content:"mas detalles +";
     top: -5;
     left: -6px;
     overflow: hidden;
@@ -66,8 +66,8 @@ a {
   &:before{
     animation: glitch 1.5s infinite linear;
     background: $black;
-    content:"mas detalles +";
     color: $white;
+    content:"mas detalles +";
     top: 0;
     left: 5px;
     overflow: hidden;

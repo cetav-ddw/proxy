@@ -167,11 +167,11 @@
   content: "";
   display: none;
   height: 2px;
-  opacity: .7;
-  width: 60px;
   left: 15px;
+  opacity: .7;
   position: absolute;
   top: 60%;
+  width: 60px;
 
   @media (min-width: $breakpoint-md) {
     display: block;
@@ -278,12 +278,12 @@
   margin: 0 auto;
   padding: 10px;
   position: relative;
-  transition: all .35s;
   text-align: center;
+  transition: all .35s;
   width: 180px;
 
   &:hover{
-    color: $green;
+    color: $black;
   }
 
   &:hover:after{
@@ -291,7 +291,7 @@
   }
 
   &:after{
-    background: $white;
+    background: $green;
     content: "";
     height: 100%;
     left: 0;

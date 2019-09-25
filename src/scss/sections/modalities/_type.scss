@@ -21,8 +21,8 @@
 
 .column-type {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
+  justify-content: space-around;
   margin: 30px 0;
   
   @media ( min-width: $breakpoint-md) {
@@ -86,8 +86,8 @@
 
 .content-text {
   color: $white;
+  font-family: $regular-txt;
   font-size: 1rem;
-  font-family:$regular-txt;
   margin: 15px 0;
   opacity: .7;
   width: 100%;

@@ -82,8 +82,8 @@
   height: 100vh;
   opacity: 0;
   position: absolute;
-  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
   top: 0;
+  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
   width: 100%;
   z-index: -1;
 }
@@ -96,8 +96,8 @@
   height: 100vh;
   opacity: 1;
   position: fixed;
-  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
   top: 0;
+  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
   width: 100%;
   z-index: 1;
 }
@@ -142,8 +142,8 @@
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
-  text-transform: uppercase;
   text-decoration: none;
+  text-transform: uppercase;
   letter-spacing: 3px;
 
   &:hover {
