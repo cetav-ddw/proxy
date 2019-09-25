@@ -7,8 +7,6 @@
   opacity: 1;
   outline: none;
   position: absolute;
-  transition: 1s ease-in-out;
-  visibility: visible;
   width: 30px;
   z-index: 3;
 
@@ -67,14 +65,17 @@
   }
 
   @media (min-width: $breakpoint-xl) {
-    top: 170px;
-  
+    top: 160px;
   }
 }
 
 .btn-nav--close {
   right: 5%;
   top: 10%;
+
+  @media (min-width: $breakpoint-xl) {
+    top: 150px;
+  }
 }
 
 .wrapper-nav {
