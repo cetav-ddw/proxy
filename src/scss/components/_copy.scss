@@ -1,5 +1,6 @@
-.copy {
+.copy-year {
   color: $white;
+  display: inline;
   font-family: $regular-txt;
   font-size: 1.2rem;
   padding: 0 0 2% 5%;
@@ -10,43 +11,67 @@
   }
 }
 
-.proxy__img {
-  background: url(/img/proxy.png);
-  background-position: center center;
-  background-size: 93% 50%;
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 24px;
-  padding: 5% 0 0 10%;
+.copy-proxy__img {
+  background: transparent url(/img/proxy.svg) no-repeat;
+  left: 27%;
+  margin: 0; 
+  overflow: hidden;
   position: relative;
-  top: 9px;
-  width: 19%;
+  text-indent: 100%;
+  top: -24px;
+  width: 30%;
+  white-space: nowrap;
+
+  @media (min-width: 375px) {
+    left: 88px;
+    top: -28px;  
+  }
 
   @media (min-width: $breakpoint-md) {
-    height: 12px;
-    top: 13px;
-    width: 6%;
+    left: 121px;
+    top: -31px;
+    width: 15%;
   }
 
   @media (min-width: $breakpoint-lg) {
-    height: 10px;
-    top: 15px;
-    width: 4%;
+    left: 131px;
+    top: -36px;
   }
 
   @media (min-width: $breakpoint-xl) {
-    height: 3px;
-    top: 15px;
-    width: 1%;
+    left: 150px;
+  }
+
+  @media (min-width: 1600px) {
+    left: 195px;
   }
 }
 
 .copy__contact {
   color: $white;
+  display: inline;
   font-family: $title;
   font-size: 1.2rem;
+  padding-left: 57%;
+  position: relative;
+  top: -59px;
+
+  @media (min-width: 375px) {
+    padding-left: 54%;
+  }
 
   @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
+    padding-left: 31%;
+    top: -65px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    padding-left: 29%;
+    top: -65px;
+  }
+
+  @media (min-width: 1600px) {
+    padding-left: 19%;
   }
 }

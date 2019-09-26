@@ -1,8 +1,8 @@
 .allies {
-  margin: 3% 5% 10% 5%;
+  margin: 0 5% 10% 5%;
 
   @media (min-width: $breakpoint-md) {
-    margin: 3% 5% 1% 5%;
+    margin: 0% 5% 1% 5%;
   }
 
   @media (min-width: $breakpoint-lg) {
@@ -78,7 +78,6 @@
   color:$white;
   font-family: $title;
   font-size: $txt-medium;
-  padding-left:5%;
 
   @media (min-width: $breakpoint-md) {
     font-size: $txt-large;
