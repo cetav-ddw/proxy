@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 30px 0 80px 0;
+  margin: 30px 0 80px;
   padding: 0 30px;
 
   @media (min-width: $breakpoint-md) {
@@ -55,7 +55,7 @@
 }
 
 .wrapper-image::after {
-  color: white;
+  color: $white;
   content: "Lorrede Asns Baahsah";
   font-size: 2rem;
   font-weight: bold;
@@ -76,7 +76,7 @@
 
 .wrapper-image--right::after {
   content: "David gonzales ramirez";
-  color: white;
+  color: $white;
   font-size: 2rem;
   font-weight: bold;
   left: 80%;
@@ -99,7 +99,7 @@
 }
 
 .wrapper-text {
-  color: white;
+  color: $white;
   padding: 0;
   position: relative;
   width: 100%;
@@ -126,7 +126,7 @@
 
 .wrapper-text::before {
   content: "Obra";
-  color: white;
+  color: $white;
   display: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -163,7 +163,7 @@
 }
 
 .wrapper-text::after {
-  background: white;
+  background: $white;
   content: "";
   display: none;
   height: 2px;
@@ -192,7 +192,7 @@
 }
 
 .wrapper-text__paragraph {
-  color: white;
+  color: $white;
   bottom: 15%;
   font-size: 1rem;
   opacity: .7;
@@ -215,7 +215,7 @@
 }
 
 .wrapper-text__paragraph--rigth {
-  color: white;
+  color: $white;
   bottom: 20%;
   font-size: 1rem;
   opacity: .7;

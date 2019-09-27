@@ -1,13 +1,35 @@
-.animation-image {
-  animation: animate-image linear 20s infinite;
-  display: flex;
-  left: 0;
-  position: relative;
-  transform: translate(-100%);
-  width: 100%;
+.wrapper-animation {
+    display: flex;
+    width: 1500px;
+
+    @media (min-width: $breakpoint-md) {
+      width: 2500px; 
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      width: 3000px; 
+    }
 }
 
-.animation-image__image {
-  margin: 0 20px;
-  max-width: 100%;
+.wrapper-animation__item {
+  animation: animate-image 10s linear infinite;
+  background: url('/img/header.svg');
+  background-repeat: no-repeat;
+  background-size: 500px;
+  height: 30px;
+  margin: 10px 0 10px;
+  text-indent: -9999px;
+  transform: translate(-100%);
+  width: 100%;
+
+  @media (min-width: $breakpoint-md) {
+    background-size: 800px;
+    height: 40px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    background-size: 1000px; 
+    height: 50px;
+  }
 }
+

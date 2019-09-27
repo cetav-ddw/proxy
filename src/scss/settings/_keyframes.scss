@@ -1,10 +1,20 @@
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 157;
+  }
+  
+  100% {
+    stroke-dashoffset: -157;
+  }  
+} 
+
 @keyframes animate-image {
   from {
-    transform:translate(0%)
+    transform: translate(0%)
   }
 
   to {
-    transform:translate(-100%)
+    transform: translate(-100%)
   }
 }
 

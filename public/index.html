@@ -11,17 +11,23 @@
 </head>
 <body>
   <header class="header">
-    <div class="animation-image">
-      <img class="animation-image__image" src="./img/header.png" alt="proxy logo">
-      <img class="animation-image__image" src="./img/header.png" alt="proxy logo">
-      <img class="animation-image__image" src="./img/header.png" alt="proxy logo">
-      <img class="animation-image__image" src="./img/header.png" alt="proxy logo">
+    <div class="wrapper-animation">
+      <h1 class="wrapper-animation__item">replace-image</h1>
+      <h1 class="wrapper-animation__item">replace-image</h1>
+      <h1 class="wrapper-animation__item">replace-image</h1>
     </div>
     <div class="herobanner">
       <video class="herobanner__video" poster="./img/bg-footer-h.jpg" autoplay muted loop>
         <source src="./mp4/main.mp4" type="video/mp4">
       </video>
-      <button class="btn-nav btn-nav--open" id="open"></button>
+      <button class="btn-nav" id="open">
+        <span class="btn-nav__text">menú</span>
+        <span class="circle-animation">
+          <svg class="btn-nav__svg " height="60" width="60">
+            <circle  class="progress-inner" cx="35" cy="35" r="13" stroke-width="4" fill="none" stroke="#16E024" />
+          </svg>
+        </span>
+      </button>
     </div>
     <div class="wrapper-nav">
       <ul class="nav-list">
