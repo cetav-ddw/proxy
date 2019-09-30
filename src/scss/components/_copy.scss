@@ -3,71 +3,27 @@
   display: inline;
   font-family: $title;
   font-size: 1.2rem;
-  padding-left: 57%;
-  position: relative;
-  top: -59px;
-
-  @media (min-width: 375px) {
-    padding-left: 54%;
-  }
-
-  @media (min-width: $breakpoint-md) {
-    font-size: $txt-medium;
-    padding-left: 31%;
-    top: -65px;
-  }
-
-  @media (min-width: $breakpoint-lg) {
-    padding-left: 29%;
-    top: -65px;
-  }
-
-  @media (min-width: 1440px) {
-    padding-left: 22%;
-  }
-
-  @media (min-width: 1600px) {
-    padding-left: 19%;
-  }
 }
 
 .copy-proxy__img {
+  display: inline-block;
   background: transparent url(/img/proxy.svg) no-repeat;
-  left: 27%;
   margin: 0; 
   overflow: hidden;
-  position: relative;
   text-indent: 100%;
-  top: -24px;
-  width: 30%;
+  width: 22%;
   white-space: nowrap;
 
-  @media (min-width: 375px) {
-    left: 88px;
-    top: -28px;  
-  }
-
   @media (min-width: $breakpoint-md) {
-    left: 121px;
-    top: -31px;
-    width: 15%;
+    width: 10%;
   }
 
-  @media (min-width: $breakpoint-lg) {
-    left: 131px;
-    top: -36px;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    left: 150px;
+  @media (min-width: $breakpoint-lg ) {
+    width: 8%;
   }
 
   @media (min-width: 1440px) {
-    left: 11%;
-  }
-
-  @media (min-width: 1600px) {
-    left: 195px;
+    width: 6%;
   }
 }
 
@@ -76,7 +32,7 @@
   display: inline;
   font-family: $regular-txt;
   font-size: 1.2rem;
-  padding: 0 0 2% 5%;
+  padding-left: 5%;
   margin: 0;
 
   @media (min-width: $breakpoint-md) {

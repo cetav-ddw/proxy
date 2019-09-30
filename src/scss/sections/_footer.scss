@@ -6,110 +6,64 @@ footer {
   color: $white;
   font-family: $title;
   font-size: $txt-small;
-  padding-left: 32%;
+  padding-top: 2%;
 
   @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
-    padding-left: 24%;
+    padding-top: 0;
   }
 
   @media (min-width: $breakpoint-lg) {
-    font-size: $txt-medium;
-    padding-left: 21%;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    padding-left: 19%;
-  }
-  @media (
-    min-width: 1440px) {
-    padding-left: 16%;
-  }
-
-  @media (min-width: 1600px) {
-    padding-left: 14%;
+    padding-top: 1%;
   }
 }
 
 .footer-title__proxy {
   background: transparent url(/img/proxy.svg) no-repeat;
-  left: 3%;
+  display: inline-block;;
   margin: 0; 
   overflow: hidden;
-  position: relative;
   text-indent: 100%;
-  top: 31px;
   width: 30%;
   white-space: nowrap;
 
-  @media (min-width: 414px) {
-    top: 27px;
+  @media (min-width:$breakpoint-md ) {
+    width: 16%;
   }
 
-  @media (min-width: $breakpoint-md) {
-    left: 35px;
-    top: 28px;
-  }
-
-  @media (min-width: $breakpoint-lg) {
-    left: 45px;
-    top: 28px;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    left: 5%;
-    top: 27px;
-  }
-
-  @media (min-width: 1440px) {
-    left: 5%;
-  }
-
-  @media (min-width: 1600px) {
-    left: 100px;
+  @media (min-width:1440px ) {
+    width: 13%;
   }
 }
 
 .footer-title__wrong {
   background: transparent url(/img/the-wrong.svg) no-repeat;
-  right: -62%;
-  margin: 0; 
+  display: inline-block;
+  margin-top: 1%; 
   overflow: hidden;
-  position: relative;
   text-indent: 100%;
-  top: -21px;
-  width: 38%;
+  width: 37%;
   white-space: nowrap;
 
-  @media (min-width: 375px) {
-    right: -210px;
-    top: -25px;
+  @media (min-width:$breakpoint-md ) {
+    margin-top: 0; 
+    width: 22%;
   }
 
-  @media (min-width: 414px) {
-    right: -222px;
-    top: -27px;
-  }
-
-  @media (min-width: $breakpoint-md) {
-    right: -328px ;
-    top: -34px;
-  }
   @media (min-width: $breakpoint-lg) {
-    right: -36%;
-    top: -34px;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    right: -32%;
+    margin-top: 0.2%; 
+    width: 21%;
   }
 
   @media (min-width: 1440px) {
-    right: -26%;
-  }
-
-  @media (min-width: 1600px) {
-    right: -480px ;
+    margin-top: 0.5%;
+    width: 15%;
   }
 }
 
+.wapper-title {
+  display: flex;
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 5%;
+}
