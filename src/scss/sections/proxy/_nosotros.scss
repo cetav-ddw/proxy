@@ -1,0 +1,56 @@
+.img-org {
+  padding: 5% 5% 15% 5%;
+  width: 90%;
+
+  @media (min-width: $breakpoint-md) {
+    padding: 5% 7% 15% 25%;
+    width: 50%;
+  }
+  
+  @media (min-width: $breakpoint-xl) {
+    padding-left: 25%;
+  }
+}
+
+.org__text {
+  margin: 0;
+  padding: 15% 7% 15% 10%;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: 20px;
+    padding: 7% 7% 5% 10%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 22px;
+    padding: 7% 7% 5% 10%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    font-size: 24px;
+    padding: 7% 0 10% 22%;
+    width: 60%;
+  }
+}
+
+.title-org {
+  font-size: 30px;
+  margin: 0;
+  padding-top: 15%; 
+  text-align: center;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: 35px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 36px;
+    padding-top: 10%;
+  }
+
+
+}
+
+.wapper-org {
+  color: #fff;
+}
