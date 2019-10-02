@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +9,115 @@
   <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap">
   <link rel="stylesheet" href="main.css">
 </head>
-
 <body>
+  <header class="header">
+    <div class="wrapper-animation">
+      <p class="wrapper-animation__item">replace-image</p>
+      <p class="wrapper-animation__item">replace-image</p>
+      <p class="wrapper-animation__item">replace-image</p>
+    </div>
+    <div class="herobanner">
+      <video class="herobanner__video" poster="./img/bg-footer-h.jpg" autoplay muted loop>
+        <source src="./mp4/main.mp4" type="video/mp4">
+      </video>
+      <button class="btn-nav" id="open">
+        <span class="btn-nav__text">menú</span>
+        <span class="circle-animation">
+          <svg class="btn-nav__svg " height="60" width="60">
+            <circle  class="progress-inner" cx="35" cy="35" r="13" stroke-width="4" fill="none" stroke="#16E024" />
+          </svg>
+        </span>
+      </button>
+    </div>
+    <div class="wrapper-nav">
+      <ul class="nav-list">
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">Home</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">Proxy</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">Sinestesia</a>
+        </li>
+        <li class="nav-list__item">
+          <a href="#" class="nav-list__link">Pabellon</a>
+        </li>
+      </ul>
+      <span class="line-decoration"></span>
+      <span class="line-decoration"></span>
+      <span class="line-decoration"></span>
+      <span class="line-decoration last"></span>
+    </div>
+  </header>
+  <section class="modalities">
+    <div class="wrapper-social">
+      <div class="wrapper-social__block-icons">
+        <a class="wrapper-social__icon insta" href="#"></a>
+        <a class="wrapper-social__icon face" href=""></a>
+      </div>
+      <p class="wrapper-social__title">siguenos</p>
+    </div>
+    <h2 class="modalities__title title-ui">Modalidades</h2>
+    <div class="column-type">
+      <div class="column-type__content">
+        <h3 class="column-type__title content-title">Sinestesia</h3>
+        <p class="column-type__text content-text">Es una serie de perfomances improvisados que integran multimedia</p>
+        <a class="column-type__details content-details details-ui" href="">mas detalles +</a>
+      </div>
+      <video class="column-type__video" autoplay muted loop>
+        <source src="./mp4/video2.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="column-type">
+      <video class="column-type__video" autoplay muted loop>
+        <source src="./mp4/main.mp4" type="video/mp4">
+      </video>
+      <div class="column-type__content">
+        <h3 class="content-title column-type__title--right">Pabellón</h3>
+        <p class="column-type__text--right content-text">Participa con una obra de nuevos medios relacionados con la hiperrrealidad</p>
+        <a class="column-type__details--right content-details details-ui" href="">mas detalles +</a>
+      </div>
+    </div>
+  </section>
+  <section class="works">
+    <h2 class="works__title title-ui">Obras</h2>
+    <div class="works__content-work">
+      <div class="wrapper-image wrapper-images">
+        <img class="wrapper-image__image" src="img/rodolfo-baquier-alias-mostasho.jpg" alt="arte">
+      </div>
+      <div class="wrapper-text">
+        <p class="wrapper-text__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque excepturi tempore corporis illum dolore voluptas
+          unde nisi non, ipsa, iste similique culpa perspiciatis dolores officiis a, adipisci id facilis ullam.
+        </p>
+        <a class="wrapper-text__details details-ui" href="">mas detalles +</a>
+      </div>
+    </div>
+    <div class="works__content-work ">
+      <div class="wrapper-text--right wrapper-text">
+        <p class="wrapper-text__paragraph--rigth">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque excepturi tempore corporis illum dolore voluptas
+          unde nisi non, ipsa, iste similique culpa perspiciatis dolores officiis a, adipisci id facilis ullam.
+        </p>
+        <a class="wrapper-text__details--right details-ui" href="">mas detalles +</a>
+      </div>
+      <div class="wrapper-image--right wrapper-images">
+        <img class="wrapper-image__image" src="img/rodolfo-baquier-alias-mostasho.jpg" alt="arte">
+      </div>
+    </div>
+    <div class="works__content-work">
+      <div class="wrapper-image wrapper-images">
+        <img class="wrapper-image__image" src="img/rodolfo-baquier-alias-mostasho.jpg" alt="arte">
+      </div>
+      <div class="wrapper-text">
+        <p class="wrapper-text__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque excepturi tempore corporis illum dolore voluptas
+          unde nisi non, ipsa, iste similique culpa perspiciatis dolores officiis a, adipisci id facilis ullam.
+        </p>
+        <a class="wrapper-text__details details-ui" href="">mas detalles +</a>
+      </div>
+    </div>
+    <a class="modalities__btn-obras" href="#"><span>Ver todas las obras</span></a>
+  </section>
+
   <footer>
     <h4 class="wapper-title">
       <span class="footer-title__proxy">Proxy </span>
@@ -41,5 +147,4 @@
   </footer>
   <script src="main.js"></script>
 </body>
-
 </html>

@@ -1,15 +1,15 @@
 @import './settings/vars';
 @import './settings/mixins';
 @import './settings/default';
+@import './settings/keyframes';
 @import './layout/grid';
-@import './sections/header';
-@import './sections/main';
+@import './sections/header/date';
+@import './sections/header/banner';
+@import './sections/header/nav';
+@import './sections/modalities/social';
+@import './sections/modalities/type';
+@import './sections/works/works';
 @import './sections/footer';
 @import './components/allies';
 @import './components/copy';
 @import './components/media';
-
-body {
-  padding: 0;
-  margin: 0;
-}

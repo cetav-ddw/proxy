@@ -1,4 +1,18 @@
 // titles
+body {
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  outline: none;
+}
+
 h1 {
   font-family: $title; 
   font-size: $txt-huge;
@@ -7,7 +21,6 @@ h1 {
 h2 {
   font-family: $title;
   font-size: $txt-huge;
-
 }
 
 h3 {
@@ -23,4 +36,47 @@ h4 {
 p {
   font-family: $regular-txt;
   font-size: $txt-medium;
+}
+
+a {
+  text-decoration: none;
+}
+
+.details-ui {
+  color: $white;
+  display: block;
+  font-size: .8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: relative;
+
+  &:after{
+    animation: glitch 1.5s infinite linear;
+    background: $black;
+    color: $white;
+    content:"mas detalles +";
+    top: -5;
+    left: -6px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-shadow: 1px -1px  1px $turquoise;
+  }
+  
+  &:before{
+    animation: glitch 1.5s infinite linear;
+    background: $black;
+    color: $white;
+    content:"mas detalles +";
+    top: 0;
+    left: 5px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    text-shadow: -1px 1px  1px $turquoise;
+  }
+
+  @media ( min-width: $breakpoint-lg) {
+    font-size: 1rem;
+  }
 }

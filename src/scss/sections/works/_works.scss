@@ -1,0 +1,315 @@
+.works__title {
+  margin: 30px 0;
+
+  @media (min-width: $breakpoint-md) {
+    margin-bottom: 70px;
+	}
+}
+
+.works__content-work {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px 0 80px;
+  padding: 0 30px;
+
+  @media (min-width: $breakpoint-md) {
+    flex-direction: row;
+    justify-content: initial;
+    margin: 50px 0;
+    padding: 30px;
+  }
+  
+  @media (min-width: $breakpoint-lg) {
+    padding: 60px;
+	}
+}
+
+.wrapper-images {
+  position: relative;
+  width: 75%;
+
+  @media (min-width: $breakpoint-md) {
+    width: 45%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    width: 35%;
+  }
+  
+  @media (min-width: $breakpoint-xl) {
+    width: 30%;
+	}
+}
+
+.wrapper-image--right {
+  order: 1;
+
+  @media (min-width: $breakpoint-md) {
+    order: 2;
+  }
+}
+
+.wrapper-image__image {
+  max-width: 100%;
+}
+
+.wrapper-image::after {
+  color: $white;
+  content: "Lorrede Asns Baahsah";
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+
+  @media (min-width: $breakpoint-md) {
+    font-size:  2.5rem;
+    right: -40px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 3rem;
+	}
+}
+
+.wrapper-image--right::after {
+  content: "David gonzales ramirez";
+  color: $white;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 80%;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 20%;
+
+  @media (min-width: $breakpoint-md) {
+    font-size:  2.5rem;
+    left: -55%;
+    order: 1;
+    text-align: right;
+    width: 60%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 3rem;
+	}
+}
+
+.wrapper-text {
+  color: $white;
+  padding: 0;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $breakpoint-md) {
+    padding: 0 40px;
+    width: 55%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    width: 70%;
+	}
+}
+
+.wrapper-text--right {
+  order: 2;
+
+  @media (min-width: $breakpoint-md) {
+    order: 1;
+    padding: 0 40px;
+    width: 55%;
+  }
+}
+
+.wrapper-text::before {
+  content: "Obra";
+  color: $white;
+  display: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: .7;
+  position: absolute;
+  width: 20%;
+
+  @media (min-width: $breakpoint-md) {
+    display: block;
+    font-size: 1.4rem;
+  }
+}
+
+.wrapper-text::before {
+  left: 35px;
+  top: 50%;
+
+  @media (min-width: $breakpoint-md) {
+    left: 15px;
+    top: 40%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    top: 45%;
+	}
+}
+
+.wrapper-text--right::before {
+  right: -70px;
+
+  @media (min-width: $breakpoint-md) {
+    left: 85%;
+  }
+}
+
+.wrapper-text::after {
+  background: $white;
+  content: "";
+  display: none;
+  height: 2px;
+  left: 15px;
+  opacity: .7;
+  position: absolute;
+  top: 60%;
+  width: 60px;
+
+  @media (min-width: $breakpoint-md) {
+    display: block;
+    top: 50%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    top: 55%;
+	}
+}
+
+.wrapper-text--right::after {
+  right: 15px;
+
+  @media (min-width: $breakpoint-md) {
+    left: 85%;
+  }
+}
+
+.wrapper-text__paragraph {
+  color: $white;
+  bottom: 15%;
+  font-size: 1rem;
+  opacity: .7;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $breakpoint-md) {
+    bottom: 10%;
+    position: absolute;
+    width: 90%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    width: 85%;
+  }
+  
+  @media (min-width: $breakpoint-xl) {
+    bottom: 15%;
+	}
+}
+
+.wrapper-text__paragraph--rigth {
+  color: $white;
+  bottom: 20%;
+  font-size: 1rem;
+  opacity: .7;
+  position: relative;
+  right: 0;
+  width: 100%;
+
+  @media (min-width: $breakpoint-md) {
+    bottom: 10%;
+    position: absolute;
+    right: 5%;
+    width: 90%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    width: 85%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    bottom: 15%;
+	}
+}
+
+.wrapper-text__details {
+  bottom: 5%;
+  position: relative;
+  right: 0;
+
+  @media (min-width: $breakpoint-md) {
+    position: absolute;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    right: 10%;
+	}
+}
+
+.wrapper-text__details--right {
+  bottom:3%;
+  left:0;
+  position: relative;
+
+  @media (min-width: $breakpoint-md) {
+    position: absolute;
+    left: 65%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    left: 65%;
+	}
+}
+
+.modalities__btn-obras {
+  border: 2px solid $green;
+  box-sizing: border-box;
+  color: $green;
+  display: block;
+  font-family: $regular-txt;
+  font-size: .9rem;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  transition: all .35s;
+  width: 180px;
+
+  &:hover{
+    color: $black;
+  }
+
+  &:hover:after{
+    width: 100%;
+  }
+
+  &:after{
+    background: $green;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all .25s;
+    width: 0;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 1rem;
+    padding: 15px;
+    width: 220px;
+	}
+}
+
+.modalities__btn-obras span{
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}

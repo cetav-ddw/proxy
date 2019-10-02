@@ -1,0 +1,137 @@
+.btn-nav {
+  align-items: center;
+  align-self: center;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  z-index: 3;
+
+  @media (min-width: $breakpoint-md) {
+    top: 70px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    right: 5%;
+    top: 100px;
+  }
+}
+
+.btn-nav__text {
+  color: $white;
+  font-family: $regular-txt;
+  font-size: 1rem;
+  font-weight: bold;
+  left: 15px;
+  position: relative;
+  top: -5px;
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 1.5rem;
+    top: -5px;
+  }
+}
+
+.circle-animation {
+  stroke: $white;
+  transform: rotate(-90deg);  
+}
+
+.progress-inner {
+  animation: dash 3s linear infinite;  
+  stroke-dasharray: 157;
+  stroke-dashoffset: 157;
+}
+
+.wrapper-nav {
+  background: $black;
+  display: flex;
+  height: 100vh;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+  width: 100%;
+  z-index: -1;
+}
+
+// js class
+
+.nav-open {
+  background: $black;
+  display: flex;
+  height: 100vh;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-list {
+  align-self: center;
+  align-content: center;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.nav-list__item {
+  margin: 30px;
+
+  @media (min-width: $breakpoint-lg) {
+    margin: 35px;
+  }
+}
+
+.nav-list__link {
+  color: $white;
+  font-family: $regular-txt;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+  &:hover {
+    background: url('/img/bg-footer-h.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-clip: text;
+      -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  @media ( min-width: $breakpoint-md) {
+    font-size: 3.5rem;
+  }
+}
+
+.line-decoration {
+  border-right: 1px solid $green;
+  height: 100%;
+  opacity: .6;
+  width: 55%;
+}
+
+.last {
+  border-right: 0 transparent;
+}

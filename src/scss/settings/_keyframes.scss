@@ -1,0 +1,138 @@
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 157;
+  }
+  
+  100% {
+    stroke-dashoffset: -157;
+  }  
+} 
+
+@keyframes animate-image {
+  from {
+    transform: translate(0%)
+  }
+
+  to {
+    transform: translate(-100%)
+  }
+}
+
+@keyframes glitch{
+  0% {
+    clip: rect(25px,9999px,76px,0px);
+    color: $turquoise;
+  }
+
+  10% {
+    clip: rect(17px,9999px,56px,0px ); 
+    color: $pink;
+    left: -5px;
+  }
+
+  15% {
+    clip: rect(7px,9999px,46px,0px);
+    color: $turquoise;
+  }
+
+  20% {
+    clip: rect(25px,9999px,40px,0);
+    color: $pink; 
+  }
+
+  25% {
+    clip: rect(63px,9999px,59px,0);
+    color: $turquoise; 
+  }
+
+  30% {
+    clip: rect(96px,9999px,95px,0);
+    color: $black;
+    left: -10px;
+  }
+
+  35% {
+    clip: rect(48px,9999px,17px,0);
+    color: $blue;
+    left: -72px;
+    text-shadow:2px 4px  11px $blue; 
+    top: 10px;
+  }
+
+  40% {
+    clip: rect(25px,9999px,40px,0);
+    color: $blue;
+    left: -5px;
+    top: -10px;
+  }
+
+  45% {
+    clip: rect(30px,9999px,12px,0);
+    color: $pink;
+    text-shadow: -1px 0.5px  .5px $pink; 
+  }
+
+  50% {
+    clip: rect(10px,9999px,81px,0);
+    color: $blue;
+    left: 13px;
+    text-shadow: -2px 4px  2px $pink;
+  }
+
+  55% {
+    clip: rect(18px,9999px,20px,0);
+    color: $blue;
+    left: -23px;
+    text-shadow: 3px -2px  1px $turquoise;
+  }
+
+  60% {
+    clip: rect(63px,9999x,29px,20);
+    color: $blue;
+    left: 0;
+    text-shadow: -3px 4.5px  1px $blue;
+  }
+
+  65% {
+    clip: rect(76px,9999px,91px,0);
+    color: $pink;;
+  }
+
+  70% {
+    clip: rect(63px,9999px,30px,0);
+    color: $white;
+    text-shadow: -3px 2px  1px $green;
+  }
+
+  75% {
+    clip: rect(60px,9999px,73px,0);
+    color: $white;
+  }
+  
+  80% {
+    clip: rect(60px,9999px,73px,0);
+    color: $turquoise;
+    text-shadow: 1px 2px  1px $pink;
+  }
+
+  85% {
+    clip: rect(60px,9999px,87px,0)
+  }
+
+  90% {
+    clip: rect(2px,9999px,14px,0);
+    color: $blue;
+    text-shadow: -2px -3px  .1px $green;
+  }
+
+  95% {
+    clip: rect(78x,9999px,70px,0);
+    color: $pink;
+  }
+
+  100% {
+    clip: rect(20x,9999px,79px,0);
+    color: $white;
+    text-shadow: 2px 5px  1.5px $turquoise;
+  }
+}
