@@ -1,35 +1,45 @@
-.copy {
-  color: $white;
-  font-family: $regular-txt;
-  font-size: 1.4rem;
-  padding-left: 5%;
-
-  @media (min-width: 414px) {
-    font-size: 1rem;
-  }
-  @media (min-width: 768px) {
-    font-size: 1.2rem;
-  }
-}
-
-.copy__proxy {
-  color: $white;
-  font-size: 1.4rem;
-
-  @media (min-width: 414px) {
-    font-size: 1rem;
-  }
-  @media (min-width: 768px) {
-    font-size: 1.2rem;
-  }
-}
-
 .copy__contact {
   color: $white;
+  display: inline;
   font-family: $title;
-  font-size: 1.4rem;
-  
-  @media (min-width: 414px) {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.copy-proxy__img {
+  display: inline-block;
+  background: transparent url(/img/proxy.svg) no-repeat;
+  margin: 0; 
+  overflow: hidden;
+  text-indent: 100%;
+  width: 22%;
+  white-space: nowrap;
+
+  @media (min-width: $breakpoint-md) {
+    width: 10%;
+  }
+
+  @media (min-width: $breakpoint-lg ) {
+    width: 8%;
+  }
+
+  @media (min-width: 1440px) {
+    width: 6%;
+  }
+}
+
+.copy-year {
+  color: $white;
+  display: inline;
+  font-family: $regular-txt;
+  font-size: 1.2rem;
+  padding-left: 5%;
+  margin: 0;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-medium;
+  }
+
+  @media (min-width: 1440px) {
+    padding-left: 5%;
   }
 }
