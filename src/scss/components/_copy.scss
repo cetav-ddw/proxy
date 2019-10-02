@@ -1,52 +1,45 @@
-.copy {
+.copy__contact {
   color: $white;
+  display: inline;
+  font-family: $title;
+  font-size: 1.2rem;
+}
+
+.copy-proxy__img {
+  display: inline-block;
+  background: transparent url(/img/proxy.svg) no-repeat;
+  margin: 0; 
+  overflow: hidden;
+  text-indent: 100%;
+  width: 22%;
+  white-space: nowrap;
+
+  @media (min-width: $breakpoint-md) {
+    width: 10%;
+  }
+
+  @media (min-width: $breakpoint-lg ) {
+    width: 8%;
+  }
+
+  @media (min-width: 1440px) {
+    width: 6%;
+  }
+}
+
+.copy-year {
+  color: $white;
+  display: inline;
   font-family: $regular-txt;
   font-size: 1.2rem;
-  padding: 0 0 2% 5%;
+  padding-left: 5%;
   margin: 0;
 
   @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
   }
-}
 
-.proxy__img {
-  background: url(/img/proxy.png);
-  background-position: center center;
-  background-size: 93% 50%;
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 24px;
-  padding: 5% 0 0 10%;
-  position: relative;
-  top: 9px;
-  width: 19%;
-
-  @media (min-width: $breakpoint-md) {
-    height: 12px;
-    top: 13px;
-    width: 6%;
-  }
-
-  @media (min-width: $breakpoint-lg) {
-    height: 10px;
-    top: 15px;
-    width: 4%;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    height: 3px;
-    top: 15px;
-    width: 1%;
-  }
-}
-
-.copy__contact {
-  color: $white;
-  font-family: $title;
-  font-size: 1.2rem;
-
-  @media (min-width: $breakpoint-md) {
-    font-size: $txt-medium;
+  @media (min-width: 1440px) {
+    padding-left: 5%;
   }
 }

@@ -2,85 +2,68 @@ footer {
   background: transparent url("/img/bg-footer-h.jpg") no-repeat;
 }
 
-.img-footer__proxy {
-  background: url(/img/proxy.png);
-  background-position: center center;
-  background-size: 93% 50%;
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 24px;
-  margin-left: 9%;
-  padding: 5% 0 0 10%;
-  position: relative;
-  top: 14px;
-  width: 19%;
-
-  @media (min-width: $breakpoint-md) {
-    background-size: 93% 35%;
-    margin-left: 5%;
-    top: 20px;
-    width: 5%;
-  }
-
-  @media (min-width: $breakpoint-lg) {
-    top: 21px;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    background-size: 93% 35%;
-    margin-left: 5%;
-    top: 25px;
-    width: 2%;
-  }
-
-  @media (min-width: 1680px) {
-    height: 1%;
-    top: 25px;
-    width: 1%;
-  }
-}
-
 .title-footer__concat { 
   color: $white;
   font-family: $title;
   font-size: $txt-small;
-  padding-top: 5%;
+  padding-top: 2%;
 
   @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
+    padding-top: 0;
   }
-}
 
-.title-footer__wrong {
-  background: url('/img/the-wrong.png');
-  background-position: center center;
-  background-size: 96% 100%;
-  background-repeat: no-repeat;
-  display: inline-block;
-  height: 20px;
-  position: relative;
-  top: 6px;
-  width: 26%;
-
-  @media (min-width: $breakpoint-md) {
-    height: 34px;
-    top: 8px;
-    width: 25%;
-  }
   @media (min-width: $breakpoint-lg) {
-    height: 29px;
-    top: 6px;
-    width: 19%;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    top: 5px;
-    width: 12%;
-  }
-
-  @media (min-width: 1680px) {
-    top: 8px;
-    width: 9%;
+    padding-top: 1%;
   }
 }
 
+.footer-title__proxy {
+  background: transparent url(/img/proxy.svg) no-repeat;
+  display: inline-block;;
+  margin: 0; 
+  overflow: hidden;
+  text-indent: 100%;
+  width: 30%;
+  white-space: nowrap;
+
+  @media (min-width:$breakpoint-md ) {
+    width: 16%;
+  }
+
+  @media (min-width:1440px ) {
+    width: 13%;
+  }
+}
+
+.footer-title__wrong {
+  background: transparent url(/img/the-wrong.svg) no-repeat;
+  display: inline-block;
+  margin-top: 1%; 
+  overflow: hidden;
+  text-indent: 100%;
+  width: 37%;
+  white-space: nowrap;
+
+  @media (min-width:$breakpoint-md ) {
+    margin-top: 0; 
+    width: 22%;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    margin-top: 0.2%; 
+    width: 21%;
+  }
+
+  @media (min-width: 1440px) {
+    margin-top: 0.5%;
+    width: 15%;
+  }
+}
+
+.wapper-title {
+  display: flex;
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 5%;
+}

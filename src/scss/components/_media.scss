@@ -1,5 +1,6 @@
 .media {
   padding-bottom: 5%;
+  padding-top: 5%;
 
   @media (min-width: $breakpoint-xl) {
     padding-bottom: 1%;
@@ -35,5 +36,9 @@
 
   @media (min-width: $breakpoint-xl) {
     padding-left: 38%;
+  }
+
+  @media (min-width: 1600px) {
+    padding-left: 26%;
   }
 }
