@@ -1,12 +1,12 @@
-.desc-pabellón {
-  color: #fff;
+.desc-pabellon {
+  color: $white;
   display: flex;
   justify-content: space-between;
   padding: 3%;
 }
 
 .desc-req {
-  color: #fff;
+  color: $white;
   padding: 10%;
 
   @media (min-width: $breakpoint-md) {
@@ -18,8 +18,8 @@
   }
 }
 
-.pabellón__img {
-  padding: 27% 0 10% 0;
+.pabellon__img {
+  padding: 14% 0 10% 0;
   height: 400px;
   width: auto;
 
@@ -32,11 +32,11 @@
   }
 }
 
-.pabellón__text--bold {
-  font-weight: bold;
+.pabellon__title {
+  font-size: 1.2rem;
 }
 
-.pabellón__text {
+.pabellon__text {
   letter-spacing: 2px;
   line-height: 1.58;
   
@@ -45,53 +45,52 @@
   }
 }
 
-.req{
+.req {
 
   @media (min-width: $breakpoint-xl) {
-    padding-left: 17%;
+    padding-left: 10%;
     width: 75%;
   }
 }
 
-.req__item-text {
-  display: inline-block;
-  letter-spacing: 2px;
-  line-height: 23px;
-  margin-bottom: 5%;
-  padding-right: 3%;
-
-  @media (min-width: $breakpoint-md) {
-    width: 43%;
-  }
+.req__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
 }
 
-.req__item-text--pos {
+.req__item {
+  letter-spacing: 2px;
+  line-height: 1.58;
+  margin-bottom: 7%;
+  padding-right: 3%;
+  width: 100%;
 
   @media (min-width: $breakpoint-md) {
-   float: right;
+    width: 47%;
   }
 }
 
 .req__title {
-  font-size: 30px;
+  font-size: $txt-large;
   text-align: center;
 
   @media (min-width: $breakpoint-lg) {
-    font-size: 30px;
     padding-bottom: 3%;
   }
 }
 
-.social-header{
-  margin-top: 12%;
+.social-header {
+  margin-top: 25%;
 }
 
 .wrapper-desc {
-  padding: 20% 3% 0 0;
+  padding: 9% 3% 0 0;
   width: 75%;
 
   @media (min-width: $breakpoint-md) {
-    padding: 8% 3% 0 0;
+    padding-top: 8%;
   }
 
   @media (min-width: $breakpoint-xl) {

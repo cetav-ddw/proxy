@@ -1,6 +1,5 @@
 @import './settings/vars';
 @import './settings/mixins';
-@import './settings/default';
 @import './settings/keyframes';
 @import './layout/grid';
 @import './sections/header/date';
@@ -13,4 +12,5 @@
 @import './components/allies';
 @import './components/copy';
 @import './components/media';
+@import './settings/default';
 @import './sections/pabellon/pabellon'
