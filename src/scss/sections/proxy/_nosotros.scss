@@ -3,12 +3,8 @@
   width: 90%;
 
   @media (min-width: $breakpoint-md) {
-    padding: 5% 7% 15% 25%;
-    width: 50%;
-  }
-  
-  @media (min-width: $breakpoint-xl) {
     padding-left: 25%;
+    width: 50%;
   }
 }
 
@@ -22,31 +18,29 @@
   }
 
   @media (min-width: $breakpoint-lg) {
-    font-size: 22px;
+    font-size: $txt-medium;
   }
 
   @media (min-width: $breakpoint-xl) {
-    font-size: 24px;
+    font-size: $txt-large;
     padding: 7% 0 10% 22%;
     width: 60%;
   }
 }
 
 .title-org {
-  font-size: 30px;
+  font-size: $txt-large;
   margin: 0;
   padding-top: 15%; 
   text-align: center;
 
   @media (min-width: $breakpoint-md) {
-    font-size: 35px;
+    font-size: $txt-x-large;
   }
 
   @media (min-width: $breakpoint-lg) {
     padding-top: 10%;
   }
-
-
 }
 
 .wapper-org {
