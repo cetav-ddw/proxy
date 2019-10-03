@@ -23,18 +23,18 @@
 }
 
 .proxy__text {
-  color: #fff;
+  color: $white;
 
   @media (min-width: $breakpoint-md) {
-    font-size: 20px;
+    font-size: $txt-small;
   }
 
   @media (min-width: $breakpoint-lg) {
-    font-size: 22px;
+    font-size: $txt-2-small;
   }
 
   @media (min-width: $breakpoint-xl) {
-    font-size: 24px;
+    font-size: $txt-medium;
   }
 }
 

@@ -17,7 +17,7 @@
   padding: 15% 7% 15% 10%;
 
   @media (min-width: $breakpoint-md) {
-    font-size: 20px;
+    font-size: $txt-small;
     padding: 7% 7% 5% 10%;
   }
 
@@ -52,5 +52,5 @@
 }
 
 .wapper-org {
-  color: #fff;
+  color: $white;
 }
