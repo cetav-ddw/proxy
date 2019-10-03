@@ -1,0 +1,182 @@
+body{  
+  color: $white;
+  background: black;
+}
+.wrapper-video {
+  width: 100%;
+}
+.video-sinestesia{
+  height: auto;
+  width: 100%;
+  
+}
+.des-sinestesia{
+
+  @media (min-width:768px){
+    width: 90%;
+  }
+
+  @media (min-width: 1100px){
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    width: 55%;
+
+  }
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.sinestesia__img {
+  
+  @media (min-width:768px){
+    display: inline-block;
+    height: 450px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 1100px){
+    height: 730px;
+  }  
+  padding: 8% 2%;
+  height: 400px;
+  width: auto;
+}
+
+
+.wrapper__des {
+
+  @media (min-width:768px){
+    padding: 5% 3% 0 0;
+  }
+
+  @media (min-width: 1100px){
+    text-align: initial;
+    padding: 10% 3% 0 0;
+    width: 80%;
+  }
+
+  padding: 15px 0;
+  width: 75%;
+}
+.sinestesia__txt {
+  @media (min-width:768px){
+    font-size: $txt-medium;
+    padding: 10px 0;
+  }
+  @media (min-width: 1100px){
+    padding: 0;
+    margin: 20px; 
+    font-size: $txt-large;
+    
+
+  }  
+  font-size: $txt-small;
+  line-height: 1.58;
+}
+
+.sinestesia-dates{
+  padding: 5px 15px;
+
+  @media (min-width: 1100px){
+    padding: 60px 0;  
+  }
+
+}
+
+.sinestesia-dates__title {
+
+  @media (min-width: 768px){
+    font-size: $txt-large;
+  }
+
+  @media (min-width:780px){
+    font-size: $txt-large;
+  }
+
+  @media (min-width: 1100px){
+    font-size: $txt-x-large;
+  }
+  font-family: $title;
+  font-size: $txt-medium;
+  text-align: center;
+}
+
+.wrapper-sinest__dates{
+  @media (min-width: 768px){
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+}
+.sinestesia-dates__txt {
+ 
+  @media (min-width:768px){
+    font-size: $txt-medium;
+    padding:2%;
+    width: 45%;
+    display: inline-flex;
+  }
+
+  @media (min-width: 1100px){
+    font-size: $txt-large;
+
+  } 
+  font-size: $txt-small;
+  line-height: 1.58;
+  padding: 0 20px;
+}
+
+.sinestesia-note{
+  
+  @media (min-width:768px){
+    padding: 10px 15px 80px ;
+  }
+  padding: 5px 15px 60px ;
+}
+.note__title {
+
+  @media (min-width: 768px){
+    font-size: $txt-large;
+  }
+
+  @media (min-width: 1100px){
+    font-size: $txt-x-large;
+  } 
+  
+  font-size: $txt-medium;
+  text-align: center; 
+} 
+
+.wrapper-note__txt {
+  padding: 0 10px;
+
+}
+
+.sinestesia-note__paragraph {
+
+  @media (min-width: 768px){
+    display: inline-flex;
+    font-size: $txt-medium;
+    justify-content: space-between;
+    margin: 10px;
+    width: 45%;
+  }
+
+  @media (min-width:780px){
+    margin: 12px; 
+    padding: 10px;
+    width: 42%;
+    
+  }
+
+  @media (min-width: 1100px){
+    font-size: $txt-large;
+  }
+  font-size: $txt-small;
+  line-height: 1.58;
+  width: 100%;
+  padding: 5px;
+}
