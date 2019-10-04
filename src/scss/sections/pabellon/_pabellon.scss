@@ -3,6 +3,10 @@
   display: flex;
   justify-content: space-between;
   padding: 3%;
+  @media (min-width: $breakpoint-xl) {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
 }
 
 .desc-req {
@@ -15,6 +19,8 @@
 
   @media (min-width: $breakpoint-lg) {
     padding-top: 1%;
+    margin: 0 auto;
+    max-width: 1200px;
   }
 }
 
@@ -24,7 +30,7 @@
   margin-top: 14%;
   overflow: hidden;
   text-indent: 100%;
-  height: 400px;
+  height: 457px;
   width: 18%;
   white-space: nowrap;
 
@@ -48,12 +54,16 @@
 }
 
 .pabellon__text {
+  font-size: $txt-small;
   letter-spacing: 2px;
   line-height: 1.58;
   
   @media (min-width: $breakpoint-md) {
-    font-size: $txt-small;
-  }
+    font-size: $txt-medium;
+  } 
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-large;
+  } 
 }
 
 .req {
@@ -76,13 +86,20 @@
 
 .req__list-item {
   color: $white;
+  font-size: $txt-small;
   letter-spacing: 2px;
   line-height: 1.58;
   margin-bottom: 7%;
   padding-right: 3%;
   width: 100%;
+
   @media (min-width: $breakpoint-md) {
+    font-size: $txt-medium;
     width: 47%;
+  }
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-large;
   }
 }
 
@@ -92,6 +109,10 @@
 
   @media (min-width: $breakpoint-lg) {
     padding-bottom: 3%;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-huge;
   }
 }
 
