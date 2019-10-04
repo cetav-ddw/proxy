@@ -111,7 +111,7 @@
   letter-spacing: 3px;
 
   &:hover {
-    background: url('/img/bg-footer-h.jpg');
+    background: url("/img/link-hover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -123,15 +123,4 @@
   @media ( min-width: $breakpoint-md) {
     font-size: $txt-huge;
   }
-}
-
-.line-decoration {
-  border-right: 1px solid $green;
-  height: 100%;
-  opacity: .6;
-  width: 55%;
-}
-
-.last {
-  border-right: 0 transparent;
 }
