@@ -1,0 +1,38 @@
+.desc-proxy {
+  margin-top: 17%;
+  padding: 15% 7% 0 10%;
+
+  @media (min-width: $breakpoint-md) {
+    margin-top: 2%;
+    padding: 10% 7% 0 25%;
+    width: 50%;
+  }
+}
+.img-proxy {
+  background: transparent url("/img/proxy.svg") no-repeat;
+  margin: 0; 
+  overflow: hidden;
+  text-indent: 100%;
+  width: 28%;
+  white-space: nowrap;
+
+  @media (min-width: $breakpoint-md) {
+    width: 19%;
+  }
+}
+
+.proxy__text {
+  color: #fff;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: 20px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 22px;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    font-size: 24px;
+  }
+}
