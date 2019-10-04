@@ -25,14 +25,14 @@
 .btn-nav__text {
   color: $white;
   font-family: $regular-txt;
-  font-size: 1rem;
+  font-size: $txt-small;
   font-weight: bold;
   left: 15px;
   position: relative;
   top: -5px;
 
   @media (min-width: $breakpoint-lg) {
-    font-size: 1.5rem;
+    font-size: $txt-medium;
     top: -5px;
   }
 }
@@ -104,7 +104,7 @@
   color: $white;
   font-family: $regular-txt;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: $txt-x-large;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -121,7 +121,7 @@
   }
 
   @media ( min-width: $breakpoint-md) {
-    font-size: 3.5rem;
+    font-size: $txt-huge;
   }
 }
 

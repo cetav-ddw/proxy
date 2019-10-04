@@ -1,12 +1,12 @@
 .title-ui {
   color: $white;
   font-family: $title;
-  font-size: 2rem;
+  font-size: $txt-x-large;
   letter-spacing: 3px;
   text-align: center;
 
   @media ( min-width: $breakpoint-lg) {
-    font-size: 4rem;
+    font-size: $txt-huge;
   }
 }
 
@@ -64,7 +64,7 @@
 .content-title {
   color: $white;
   font-family: $title;
-  font-size: 1.5rem;
+  font-size: $txt-x-large;
   margin: 5px 0 30px;
   position: relative;
   width: 100%;
@@ -77,23 +77,19 @@
     position: absolute;
     width: 60px;
   }
-  
-  @media ( min-width: $breakpoint-lg) {
-    font-size: 2.5rem;
-  }
 }
 
 
 .content-text {
   color: $white;
   font-family: $regular-txt;
-  font-size: 1rem;
-  margin: 15px 0;
+  font-size: $txt-small;
+  padding: 20px 0;
   opacity: .7;
   width: 100%;
 
   @media ( min-width: $breakpoint-lg) {
-    font-size: 1.4rem;
+    font-size: $txt-medium;
     padding: 30px 0;
   }
 }
