@@ -4,10 +4,17 @@
 
   @media (min-width: $breakpoint-md) {
     margin-top: 2%;
-    padding: 10% 7% 0 25%;
+    padding: 10% 0 0 25%;
     width: 50%;
   }
+
+  @media (min-width: $breakpoint-xl) {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 0;
+  }
 }
+
 .img-proxy {
   background: transparent url("/img/proxy.svg") no-repeat;
   margin: 0; 
@@ -22,17 +29,18 @@
 }
 
 .proxy__text {
-  color: #fff;
+  color: $white;
+  font-size: $txt-small;
 
   @media (min-width: $breakpoint-md) {
-    font-size: 20px;
-  }
-
-  @media (min-width: $breakpoint-lg) {
-    font-size: 22px;
+    font-size: $txt-medium;
   }
 
   @media (min-width: $breakpoint-xl) {
-    font-size: 24px;
+    font-size: $txt-large;
   }
+}
+
+.social-header{
+  margin-top: 12%;
 }
