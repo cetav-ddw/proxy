@@ -1,0 +1,178 @@
+.wrapper-video {
+  width: 100%;
+}
+
+.video-sinestesia {
+  height: auto;
+  width: 100%;
+  
+}
+
+.des-sinestesia {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+  
+  @media (min-width:$breakpoint-md) {
+    padding: 0;
+    width: 90%;
+  }
+  @media (min-width: $breakpoint-xl) {
+    margin: 0 auto;
+    text-align: center;
+    width: 55%;  
+    max-width: 1200px;
+  }
+}
+
+.sinestesia__title {
+  background: transparent url(/img/sinestesia.png) no-repeat;
+  border: 0;
+  color: transparent;
+  display: inline-block;    
+  height: 600px;
+  margin: 0;
+  overflow: hidden;
+  text-indent: 100%;
+  text-shadow: none;
+  white-space: nowrap;
+  width: 75px;
+
+  @media (min-width:$breakpoint-md) {
+    display: inline-block;
+    margin: 0 auto;
+  }
+}
+
+.wrapper__des {
+  padding: 15px 0;
+  width: 75%;
+
+  @media (min-width:$breakpoint-md) {
+    padding: 5% 3% 0 0;
+  }
+  @media (min-width: $breakpoint-xl) {
+    text-align: initial;
+    width: 70%;
+    padding: 0;
+  }
+}
+
+.sinestesia__txt {  
+  color: $white; 
+  font-size: $txt-small;
+  line-height: 1.58;
+
+  @media (min-width:$breakpoint-md) {
+    font-size: $txt-medium;
+    padding: 10px 0;
+  }
+  @media (min-width: $breakpoint-xl) {
+    padding: 0;
+    margin: 20px; 
+    font-size: $txt-large;
+  } 
+}
+
+.sinestesia-dates{
+   padding: 5px 15px;
+
+  @media (min-width: $breakpoint-xl) {
+    margin: 0 auto;
+    max-width: 1200px; 
+    padding: 60px 0; 
+   
+  }
+}
+
+.sinestesia-dates__title {
+  color: $white; 
+  font-family: $title;
+  font-size: $txt-medium;
+  text-align: center;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-large;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-huge;
+  }
+}
+
+.wrapper-sinest__dates{
+  @media (min-width: $breakpoint-md) {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+
+.sinestesia-dates__txt {
+  color: $white;
+  font-size: $txt-small;
+  line-height: 1.58;
+  padding: 0 20px;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-medium;
+    padding: 2%;
+    width: 45%;
+    display: inline-flex;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-large;
+
+  } 
+}
+
+.sinestesia-note{
+  padding: 5px 15px 60px ;
+
+  @media (min-width:$breakpoint-md) {
+    padding: 10px 15px 80px ;
+  }
+  @media (min-width: $breakpoint-xl) {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+}
+
+.note__title {  
+  color: $white;
+  font-size: $txt-medium;
+  text-align: center; 
+
+  @media (min-width:$breakpoint-md) {
+    font-size: $txt-large;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-huge;
+
+  }
+} 
+
+.wrapper-note__txt {
+  padding: 0 10px;
+}
+
+.sinestesia-note__txt {
+  color: $white;
+  font-size: $txt-small;
+  line-height: 1.58;
+  padding: 5px;
+  width: 100%;
+
+  @media (min-width: $breakpoint-md) {
+    display: inline-flex;
+    font-size: $txt-medium;
+    justify-content: space-between;
+    margin: 10px;
+    width: 45%;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-large;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+}
