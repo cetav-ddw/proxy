@@ -9,19 +9,17 @@
 }
 
 .org__text {
+  font-size: $txt-small;
   margin: 0;
   padding: 15% 7% 15% 10%;
 
   @media (min-width: $breakpoint-md) {
-    font-size: $txt-small;
+    font-size: $txt-medium;
     padding: 7% 7% 5% 10%;
   }
 
-  @media (min-width: $breakpoint-lg) {
-    font-size: $txt-medium;
-  }
-
   @media (min-width: $breakpoint-xl) {
+    font-size: $txt-large;
     padding: 7% 0 10% 22%;
     width: 60%;
   }
@@ -40,8 +38,17 @@
   @media (min-width: $breakpoint-lg) {
     padding-top: 10%;
   }
+
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-huge;
+  }
 }
 
 .wapper-org {
   color: $white;
+
+  @media (min-width: $breakpoint-xl) {
+    margin:0 auto;
+    max-width: 1200px;
+  }
 }
