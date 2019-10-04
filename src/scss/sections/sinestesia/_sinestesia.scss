@@ -93,7 +93,7 @@
   }
 
   @media (min-width: $breakpoint-xl) {
-    font-size: $txt-x-large;
+    font-size: $txt-huge;
   }
   color: $white; 
   font-family: $title;
@@ -141,12 +141,12 @@
 }
 
 .note__title {
-  @media (min-width: 768px) {
+  @media (min-width:$breakpoint-md) {
     font-size: $txt-large;
   }
 
   @media (min-width: $breakpoint-xl) {
-    font-size: $txt-x-large;
+    font-size: $txt-huge;
 
   }
   color: $white;
