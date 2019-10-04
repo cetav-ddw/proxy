@@ -6,6 +6,7 @@ body {
 }
 
 ul {
+  font-family: $regular-txt;
   list-style: none;
 }
 
@@ -35,7 +36,6 @@ h4 {
 
 p {
   font-family: $regular-txt;
-  font-size: $txt-medium;
 }
 
 a {

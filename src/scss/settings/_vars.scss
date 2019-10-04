@@ -4,7 +4,7 @@
 }
 
 // primary-colors
-$white: #ffff;
+$white: #fff;
 $green: #16E024;
 $black: #000;
 
@@ -24,14 +24,13 @@ $regular-txt: 'Lexend Deca', 'Helvetica',sans-serif;
 
 // font-sizes
 $txt-small: 1rem;
-$txt-medium: 1.5rem;
-$txt-large:  2rem;
+$txt-medium: 1.3rem;
+$txt-large:  1.5rem;
 $txt-x-large: 2.2rem;
 $txt-huge:  3.75rem;
 $txt-x-huge: 5.62rem;
 
 // Breakpoints
-
 $breakpoint-md: 768px;
-$breakpoint-lg: 980px;
-$breakpoint-xl: 1100px;
+$breakpoint-lg: 990px;
+$breakpoint-xl: 1200px;
