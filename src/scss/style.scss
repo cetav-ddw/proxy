@@ -1,8 +1,14 @@
 @import './settings/vars';
 @import './settings/mixins';
-@import './settings/default';
 @import './settings/keyframes';
+@import './settings/default';
 @import './layout/grid';
+@import './components/allies';
+@import './components/copy';
+@import './components/media';
+@import './sections/proxy/nosotros';
+@import './sections/proxy/proxy';
+@import './sections/pabellon/pabellon';
 @import './sections/header/date';
 @import './sections/header/banner';
 @import './sections/header/nav';
@@ -10,8 +16,3 @@
 @import './sections/modalities/type';
 @import './sections/works/works';
 @import './sections/footer';
-@import './components/allies';
-@import './components/copy';
-@import './components/media';
-@import './sections/proxy/nosotros';
-@import './sections/proxy/proxy';
