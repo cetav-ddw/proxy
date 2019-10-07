@@ -1,20 +1,19 @@
-(function () {
+(function lines() {
   const canvas = document.querySelector('.galery__ctx');
   const ctx = canvas.getContext('2d');
-  let left = 0;
-  let right = 0;
+  const left = 0;
+  const right = 0;
   canvas.height = 80;
   canvas.width = 55;
-  window.addEventListener('load', loadAnimation);
 
-  class mydraw {
-    constructor(x, y, w, h, left, right) {
+  class MyDraw {
+    constructor(x, y, w, h, leftDraw, rightDraw) {
       this.x = x;
       this.y = y;
       this.w = w;
       this.h = h;
-      this.left = left;
-      this.right = right;
+      this.left = leftDraw;
+      this.right = rightDraw;
     }
 
     drawCtx() {
@@ -25,23 +24,24 @@
     animation() {
       this.w -= this.left;
       this.w += this.right;
-      this.drawCtx()
+      this.drawCtx();
     }
   }
 
-  let numbers = [];
-  let arrayNum = [];
+  const numbers = [];
+  const arrayNum = [];
   const arrayElement = [];
 
+  // eslint-disable-next-line no-plusplus
   for (let num = 1; num <= 80; num++) {
     numbers.push(num);
   }
 
-  let totalNumbers = numbers.filter((numero) => numero % 2 == 0);
-  totalNumbers.forEach(x => {
+  const totalNumbers = numbers.filter(numero => numero % 2 === 0);
+  totalNumbers.forEach((x) => {
     arrayNum.push((Math.random() * 0.5) + 0.05);
-    arrayElement.push(new mydraw(0, x, 40, 1, left, right));
-  })
+    arrayElement.push(new MyDraw(0, x, 40, 1, left, right));
+  });
 
   function IteracionDraw() {
     requestAnimationFrame(IteracionDraw);
@@ -50,22 +50,24 @@
   }
 
   function lineAnimation() {
-    interval = setInterval(function () {
-      let max = Math.floor((Math.random() * (20 - 10)) + 10);
-      arrayElement.forEach((item, index) => {
+    setInterval(() => {
+      const max = Math.floor((Math.random() * (20 - 10)) + 10);
+      arrayElement.forEach((items, index) => {
+        const item = items;
         if (max >= item.w) {
           item.left = 0;
           item.right = arrayNum[index];
-        }else if (item.w >= 35) {
+        } else if (item.w >= 35) {
           item.right = 0;
           item.left = arrayNum[index];
         }
       });
-    }, 500)
+    }, 500);
   }
 
   function loadAnimation() {
     IteracionDraw();
-    lineAnimation()
+    lineAnimation();
   }
-}())
+  window.addEventListener('load', loadAnimation);
+}());

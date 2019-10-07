@@ -4,8 +4,8 @@
 }
 
 .modalities {
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
   padding: 20px 0 30px;
 
   @media ( min-width: $breakpoint-lg) {
@@ -24,7 +24,6 @@
 }
 
 .galery {
-  max-width: 1400px;
   padding: 40px 20px;
   position: relative;
 }

@@ -16,13 +16,13 @@
   height: 80px;
   padding: 0;
   position: absolute;
-  top: 35%;
+  top: 40%;
   transition: all .15s;
   visibility: visible;
-  width: 45px;
+  width: 50px;
 
   &:after{
-    background: rgb(1, 153, 1);
+    background: $green;
     content: "";
     height: 100%;
     left: 0px;
@@ -49,7 +49,7 @@
 }
 
 .galery__svg {
-  left: 15px;
+  left: 17px;
   position: absolute;
   top: 30px;
 }
