@@ -15,31 +15,85 @@ button {
 }
 
 h1 {
+  color: $white;
   font-family: $title; 
-  font-size: $txt-huge;
+  font-size: $txt-large;
+  
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-x-large;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-huge;
+  }
 }
 
 h2 {
+  color: $white;
   font-family: $title;
-  font-size: $txt-huge;
+  font-size: $txt-large;
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-x-large;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-huge;
+  }
 }
 
 h3 {
+  color: $white;
   font-family: $title;
-  font-size: $txt-x-large;
+  font-size: $txt-medium;
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-large;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-x-large;
+  }
 }
 
 h4 {
+  color: $white;
   font-family: $title;
-  font-size: $txt-large;
+  font-size: $txt-medium;
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-large;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-x-large;
+  }
 }
 
 p {
+  color: $white;   
   font-family: $regular-txt;
+  font-size: $txt-small;
+  letter-spacing: 2px;
+  line-height: 1.58;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-medium;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-large;
+  }
 }
 
 a {
   text-decoration: none;
+}
+
+li{
+  color: $white;
+  font-size: $txt-small;
+  letter-spacing: 2px;
+  line-height: 1.58;
+
+  @media (min-width: $breakpoint-md) {
+    font-size: $txt-medium;
+  }
+  @media (min-width: $breakpoint-xl) {
+    font-size: $txt-large;
+  }
 }
 
 .details-ui {

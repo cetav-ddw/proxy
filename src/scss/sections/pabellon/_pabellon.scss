@@ -1,5 +1,4 @@
 .desc-pabellon {
-  color: $white;
   display: flex;
   justify-content: space-between;
   padding: 3%;
@@ -10,13 +9,11 @@
 }
 
 .desc-req {
-  color: $white;
   padding: 10%;
 
   @media (min-width: $breakpoint-md) {
     padding-top: 0;
   }
-
   @media (min-width: $breakpoint-lg) {
     padding-top: 1%;
     margin: 0 auto;
@@ -50,13 +47,11 @@
 }
 
 .pabellon__title {
-  font-size: 1.2rem;
+/*  font-size: 1.2rem;*/
 }
 
 .pabellon__text {
-  font-size: $txt-small;
-  letter-spacing: 2px;
-  line-height: 1.58;
+ // letter-spacing: 2px;
   
   @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
@@ -85,26 +80,26 @@
 }
 
 .req__list-item {
-  color: $white;
-  font-size: $txt-small;
-  letter-spacing: 2px;
-  line-height: 1.58;
+  //color: $white;
+  //font-size: $txt-small;
+  //letter-spacing: 2px;
+  //line-height: 1.58;
   margin-bottom: 7%;
   padding-right: 3%;
   width: 100%;
 
   @media (min-width: $breakpoint-md) {
-    font-size: $txt-medium;
+    //font-size: $txt-medium;
     width: 47%;
   }
 
   @media (min-width: $breakpoint-md) {
-    font-size: $txt-large;
+   // font-size: $txt-large;
   }
 }
 
 .req__title {
-  font-size: $txt-large;
+ // font-size: $txt-large;
   text-align: center;
 
   @media (min-width: $breakpoint-lg) {
@@ -112,7 +107,7 @@
   }
 
   @media (min-width: $breakpoint-xl) {
-    font-size: $txt-huge;
+ //   font-size: $txt-huge;
   }
 }
 
