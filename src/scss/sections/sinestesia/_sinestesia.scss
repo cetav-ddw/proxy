@@ -5,7 +5,6 @@
 .video-sinestesia {
   height: auto;
   width: 100%;
-  
 }
 
 .des-sinestesia {
@@ -18,10 +17,10 @@
     width: 90%;
   }
   @media (min-width: $breakpoint-xl) {
-    margin: 0 auto;
+    margin: 0 auto;    
+    max-width: 1200px;
     text-align: center;
     width: 55%;  
-    max-width: 1200px;
   }
 }
 
@@ -75,22 +74,11 @@
     margin: 0 auto;
     max-width: 1200px; 
     padding: 60px 0; 
-   
   }
 }
 
 .sinestesia-dates__title {
-  /*color: $white; 
-  font-family: $title;
-  font-size: $txt-medium;*/
   text-align: center;
-
-  @media (min-width: $breakpoint-md) {
-   // font-size: $txt-large;
-  }
-  @media (min-width: $breakpoint-xl) {
-  //  font-size: $txt-huge;
-  }
 }
 
 .wrapper-sinest__dates{
@@ -105,14 +93,10 @@
   padding: 0 20px;
 
   @media (min-width: $breakpoint-md) {
-   // font-size: $txt-medium;
     padding: 2%;
     width: 45%;
     display: inline-flex;
   }
-  @media (min-width: $breakpoint-xl) {
-   // font-size: $txt-large;
-  } 
 }
 
 .sinestesia-note{
@@ -127,18 +111,8 @@
   }
 }
 
-.note__title {  /*
-  color: $white;
-  font-size: $txt-medium;
+.note__title {  
   text-align: center; 
-*/
-  @media (min-width:$breakpoint-md) {
-  //  font-size: $txt-large;
-  }
-  @media (min-width: $breakpoint-xl) {
-  //  font-size: $txt-huge;
-
-  }
 } 
 
 .wrapper-note__txt {
@@ -151,15 +125,12 @@
 
   @media (min-width: $breakpoint-md) {
     display: inline-flex;
-   // font-size: $txt-medium;
     justify-content: space-between;
     margin: 10px;
     width: 45%;
   }
   @media (min-width: $breakpoint-xl) {
-  //  font-size: $txt-large;
     margin: 0;
     padding: 0 20px;
   }
-
 }

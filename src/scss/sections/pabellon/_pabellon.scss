@@ -15,9 +15,9 @@
     padding-top: 0;
   }
   @media (min-width: $breakpoint-lg) {
-    padding-top: 1%;
     margin: 0 auto;
     max-width: 1200px;
+    padding-top: 1%;
   }
 }
 
@@ -49,20 +49,17 @@
 .pabellon__title {
 /*  font-size: 1.2rem;*/
 }
-
-.pabellon__text {
- // letter-spacing: 2px;
-  
+/*
+.pabellon__text {  
   @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
   } 
   @media (min-width: $breakpoint-xl) {
     font-size: $txt-large;
   } 
-}
+}*/
 
 .req {
-
   @media (min-width: $breakpoint-xl) {
     padding-left: 10%;
     width: 75%;
@@ -80,34 +77,20 @@
 }
 
 .req__list-item {
-  //color: $white;
-  //font-size: $txt-small;
-  //letter-spacing: 2px;
-  //line-height: 1.58;
   margin-bottom: 7%;
   padding-right: 3%;
   width: 100%;
 
   @media (min-width: $breakpoint-md) {
-    //font-size: $txt-medium;
     width: 47%;
-  }
-
-  @media (min-width: $breakpoint-md) {
-   // font-size: $txt-large;
   }
 }
 
 .req__title {
- // font-size: $txt-large;
   text-align: center;
 
   @media (min-width: $breakpoint-lg) {
     padding-bottom: 3%;
-  }
-
-  @media (min-width: $breakpoint-xl) {
- //   font-size: $txt-huge;
   }
 }
 
@@ -126,9 +109,8 @@
   @media (min-width: $breakpoint-md) {
     padding-top: 8%;
   }
-
   @media (min-width: $breakpoint-xl) {
-    width: 50%;
     padding: 5% 15% 0 0;
+    width: 50%;
   }
 }
