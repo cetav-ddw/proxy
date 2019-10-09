@@ -80,23 +80,16 @@
 .sinestesia-dates__title {
   text-align: center;
 }
-
-.wrapper-sinest__dates{
-  @media (min-width: $breakpoint-md) {
+ /// WRAPPER DE COLUMNAS AHHHHHHH
+.wrapper-sinest__dates{ 
+  @media (min-width: $breakpoint-md) {    
+    column-count: 2;
     display: flex;
-    margin: 0 auto;
-    justify-content: center;
   }
 }
 
 .sinestesia-dates__txt {
   padding: 0 20px;
-
-  @media (min-width: $breakpoint-md) {
-    padding: 2%;
-    width: 45%;
-    display: inline-flex;
-  }
 }
 
 .sinestesia-note{
@@ -124,10 +117,7 @@
   width: 100%;
 
   @media (min-width: $breakpoint-md) {
-    display: inline-flex;
-    justify-content: space-between;
     margin: 10px;
-    width: 45%;
   }
   @media (min-width: $breakpoint-xl) {
     margin: 0;
