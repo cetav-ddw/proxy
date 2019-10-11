@@ -10,7 +10,6 @@
 .des-sinestesia {
   display: flex;
   justify-content: space-between;
-  //padding: 5%;
   
   @media (min-width:$breakpoint-md) {
     padding: 0;
@@ -44,12 +43,7 @@
 }
 
 .wrapper__des {
-///  padding: 15px 0;
   width: 75%;
-
-  @media (min-width:$breakpoint-md) {
-//   padding: 0;
-  }
   @media (min-width: $breakpoint-xl) {
     width: 70%;
   }

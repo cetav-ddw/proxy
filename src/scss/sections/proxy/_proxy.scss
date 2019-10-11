@@ -1,11 +1,9 @@
 .desc-proxy {
-  margin-top: 17%;
-  padding: 15% 7% 0 10%;
+  padding: 20px 15px 30px;
 
   @media (min-width: $breakpoint-md) {
-    margin-top: 2%;
-    padding: 10% 0 0 25%;
-    width: 50%;
+    margin: 0 auto;
+    width: 80%;
   }
 
   @media (min-width: $breakpoint-xl) {
@@ -28,19 +26,4 @@
   }
 }
 
-.proxy__text {
- /* color: $white;
-  font-size: $txt-small;
 
-  @media (min-width: $breakpoint-md) {
-    font-size: $txt-medium;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    font-size: $txt-large;
-  }*/
-}
-
-.social-header{
-  margin-top: 12%;
-}
