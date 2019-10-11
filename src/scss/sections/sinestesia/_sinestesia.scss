@@ -10,7 +10,7 @@
 .des-sinestesia {
   display: flex;
   justify-content: space-between;
-  padding: 5%;
+  //padding: 5%;
   
   @media (min-width:$breakpoint-md) {
     padding: 0;
@@ -44,22 +44,20 @@
 }
 
 .wrapper__des {
-  padding: 15px 0;
+///  padding: 15px 0;
   width: 75%;
 
   @media (min-width:$breakpoint-md) {
-    padding: 5% 3% 0 0;
+//   padding: 0;
   }
   @media (min-width: $breakpoint-xl) {
-    text-align: initial;
     width: 70%;
-    padding: 0;
   }
 }
 
 
 .sinestesia-dates{
-   padding: 5px 15px;
+  padding: 5px 15px 60px ;
 
   @media (min-width: $breakpoint-xl) {
     margin: 0 auto;
