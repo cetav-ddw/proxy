@@ -45,24 +45,14 @@
 }
 
 .req__list-item {
+  margin: 0 auto; 
   padding: 10px;
+
   @media (min-width: $breakpoint-md) {
-    width: 47%;
+    width: 85%;
   }
 }
 
 .req__title {
   text-align: center;
-
-  @media (min-width: $breakpoint-lg) {
-    padding-bottom: 3%;
-  }
-}
-
-.social-header {
-  margin-top: 25%;
-
-  @media (min-width: $breakpoint-lg) {
-    margin-top: 13%;
-  }
 }
