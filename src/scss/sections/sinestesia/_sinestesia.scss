@@ -57,15 +57,6 @@
   }
 }
 
-.sinestesia__txt { 
-  @media (min-width:$breakpoint-md) {
-    padding: 10px 0;
-  }
-  @media (min-width: $breakpoint-xl) {
-    padding: 0;
-    margin: 20px; 
-  } 
-}
 
 .sinestesia-dates{
    padding: 5px 15px;
@@ -80,18 +71,21 @@
 .sinestesia-dates__title {
   text-align: center;
 }
- /// WRAPPER DE COLUMNAS AHHHHHHH
-.wrapper-sinest__dates{ 
+
+.wrapper__txt--columns{ 
   @media (min-width: $breakpoint-md) {    
     column-count: 2;
     display: flex;
   }
 }
 
-.sinestesia-dates__txt {
-  padding: 0 20px;
+.txt--columns{
+  @media (min-width: $breakpoint-md) {
+    width: 48%;
+    padding: 20px;
+    font-size: 1.3rem;
+  }
 }
-
 .sinestesia-note{
   padding: 5px 15px 60px ;
 
@@ -108,19 +102,3 @@
   text-align: center; 
 } 
 
-.wrapper-note__txt {
-  padding: 0 10px;
-}
-
-.sinestesia-note__txt {
-  padding: 5px;
-  width: 100%;
-
-  @media (min-width: $breakpoint-md) {
-    margin: 10px;
-  }
-  @media (min-width: $breakpoint-xl) {
-    margin: 0;
-    padding: 0 20px;
-  }
-}
