@@ -3,7 +3,6 @@
 @import './settings/keyframes';
 @import './settings/default';
 @import './layout/grid';
-@import './sections/artist/galery';
 @import './sections/proxy/nosotros';
 @import './sections/proxy/proxy';
 @import './sections/pabellon/pabellon';
@@ -14,8 +13,10 @@
 @import './sections/modalities/type';
 @import './sections/works/works';
 @import './sections/sinestesia/sinestesia';
+@import './sections/artist/galery';
+@import './sections/artist/about';
+@import './sections/artist/btn';
 @import './sections/footer/footer';
 @import './sections/footer/allies';
 @import './sections/footer/copy';
 @import './sections/footer/media';
-

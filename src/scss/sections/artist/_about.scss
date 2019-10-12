@@ -1,0 +1,64 @@
+.about-artist__wrapper-info {
+  margin: 20px 0;
+  position: relative;
+
+  @media ( min-width: $breakpoint-md) {
+    height: 370px;
+  }
+
+  @media ( min-width: $breakpoint-lg) {
+    height: 400px;
+  }
+}
+
+.about-artist__title-name {
+  color: $white;
+  margin: 20px 0;
+
+  @media ( min-width: $breakpoint-md) {
+    width: 50%;
+  }
+
+  @media ( min-width: $breakpoint-lg) {
+    width: 40%;
+  }
+}
+
+.list-artist-ui {
+  padding: 0;
+}
+
+.about-artist__item {
+  color: $white;
+  font-weight: bold;
+
+  @media ( min-width: $breakpoint-md) {
+    font-size: $txt-medium;
+  }
+
+  @media ( min-width: $breakpoint-xl) {
+    font-size: $txt-large;
+  }
+}
+
+.about-artist__paragraph {
+  color: $white;
+  font-size: .9rem;
+  opacity: .9;
+
+  @media ( min-width: $breakpoint-md) {
+    bottom: 10px;
+    right: 0;
+    position: absolute;
+    width: 65%;
+  }
+
+  @media ( min-width: $breakpoint-lg) {
+    right: 30px;
+    font-size: $txt-medium;
+  }
+}
+
+.about-artist__subtitle {
+  color: $white;
+}
