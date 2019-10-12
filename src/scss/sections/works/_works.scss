@@ -191,16 +191,13 @@
 }
 
 .wrapper-text__paragraph {
-  color: $white;
   bottom: 15%;
-  font-size: $txt-small;
   opacity: .7;
   position: relative;
   width: 100%;
 
   @media (min-width: $breakpoint-md) {
     bottom: 10%;
-    font-size: 1.1rem;
     position: absolute;
     width: 90%;
   }
@@ -210,14 +207,12 @@
   }
   
   @media (min-width: $breakpoint-xl) {
-    bottom: 15%;
+    bottom: 5%;
 	}
 }
 
 .wrapper-text__paragraph--rigth {
-  color: $white;
   bottom: 15%;
-  font-size: $txt-small;
   opacity: .7;
   position: relative;
   right: 0;
