@@ -31,6 +31,8 @@ h2 {
   color: $white;
   font-family: $title;
   font-size: $txt-large;
+  letter-spacing: 3px;
+  text-align: center;
   @media (min-width: $breakpoint-md) {
     font-size: $txt-x-large;
   }
@@ -69,12 +71,14 @@ p {
   font-size: $txt-small;
   letter-spacing: 2px;
   line-height: 1.58;
+  opacity: 0.8;
+  text-align: initial;
 
   @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
   }
   @media (min-width: $breakpoint-xl) {
-    font-size: $txt-large;
+    font-size: $txt-medium;
   }
 }
 
@@ -103,34 +107,36 @@ li{
   letter-spacing: 3px;
   text-transform: uppercase;
   position: relative;
-
-  &:after{
-    animation: glitch 1.5s infinite linear;
-    background: $black;
-    color: $white;
-    content:"mas detalles +";
-    top: -5;
-    left: -6px;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    text-shadow: 1px -1px  1px $turquoise;
-  }
+  &:hover{
+    &:after{
+      animation: glitch 1.5s infinite linear;
+      background: $black;
+      color: $white;
+      content:"mas detalles +";
+      top: -5;
+      left: -6px;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      text-shadow: 1px -1px  1px $turquoise;
+    }
   
-  &:before{
-    animation: glitch 1.5s infinite linear;
-    background: $black;
-    color: $white;
-    content:"mas detalles +";
-    top: 0;
-    left: 5px;
-    overflow: hidden;
-    position: absolute;
-    right: 0;
-    text-shadow: -1px 1px  1px $turquoise;
+    &:before{
+      animation: glitch 1.5s infinite linear;
+      background: $black;
+      color: $white;
+      content:"mas detalles +";
+      top: 0;
+      left: 5px;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      text-shadow: -1px 1px  1px $turquoise;
+    }
   }
+
 
   @media ( min-width: $breakpoint-lg) {
-    font-size: 1rem;
+    font-size: $txt-medium;
   }
 }

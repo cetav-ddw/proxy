@@ -73,9 +73,9 @@
 
 .txt--columns{
   @media (min-width: $breakpoint-md) {
-    width: 48%;
-    padding: 20px;
     font-size: 1.3rem;
+    padding: 20px;
+    width: 48%;
   }
 }
 .sinestesia-note{
