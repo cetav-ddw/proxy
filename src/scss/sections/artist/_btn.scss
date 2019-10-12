@@ -1,0 +1,40 @@
+.btn-artists__btn {
+  border: 0;
+  color: $white;
+  cursor: pointer;
+  font-size: $txt-small;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: 1s ease-in-out ;
+  width: 33.5%;
+
+  @media ( min-width: $breakpoint-md) {
+    font-size: $txt-medium;
+    padding: 45px 20px;
+  }
+
+  @media ( min-width: $breakpoint-lg) {
+    font-size: $txt-x-large;
+    padding: 60px 20px;
+  }
+
+  &:hover {
+    color: black;
+    font-weight: bold;
+  }
+}
+
+.btn-previous {
+  background: linear-gradient( $blue, $blue) , url('/img/conejoEscalante4.png');
+  background-size: cover;
+}
+
+.btn-all-works {
+  background: linear-gradient($black-transparent, $black-transparent) , url('/img/link-hover.jpg');
+  background-size: cover;
+}
+
+.btn-next {
+  background: linear-gradient($turquoise, $turquoise) , url('/img/thumbnail.png');
+  background-size: cover;
+}
