@@ -3,9 +3,7 @@
 @import './settings/keyframes';
 @import './settings/default';
 @import './layout/grid';
-@import './components/allies';
-@import './components/copy';
-@import './components/media';
+@import './sections/artist/galery';
 @import './sections/proxy/nosotros';
 @import './sections/proxy/proxy';
 @import './sections/pabellon/pabellon';
@@ -15,9 +13,9 @@
 @import './sections/modalities/social';
 @import './sections/modalities/type';
 @import './sections/works/works';
-@import './sections/footer';
-@import './components/allies';
 @import './sections/sinestesia/sinestesia';
-@import './sections/footer';
-@import './sections/artist/galery';
+@import './sections/footer/footer';
+@import './sections/footer/allies';
+@import './sections/footer/copy';
+@import './sections/footer/media';
 
