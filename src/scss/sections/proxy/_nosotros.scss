@@ -1,54 +1,38 @@
-.img-org {
-  padding: 5% 5% 15% 5%;
-  width: 90%;
-
-  @media (min-width: $breakpoint-md) {
-    padding-left: 25%;
-    width: 50%;
-  }
-}
-
-.org__text {
-  font-size: $txt-small;
-  margin: 0;
-  padding: 15% 7% 15% 10%;
-
-  @media (min-width: $breakpoint-md) {
-    font-size: $txt-medium;
-    padding: 7% 7% 5% 10%;
-  }
+.content-img {
+  text-align: center;
+  width: 100%;
 
   @media (min-width: $breakpoint-xl) {
-    font-size: $txt-large;
-    padding: 7% 0 10% 22%;
-    width: 60%;
+    margin: 0 auto;    
+    max-width: 1200px; 
   }
 }
+.img-org {
+  width: 100%;
+
+  @media (min-width: $breakpoint-md) {
+    margin: 0 auto;
+    width: 80%;
+    
+  }
+}
+
 
 .title-org {
-  font-size: $txt-large;
-  margin: 0;
-  padding-top: 15%; 
   text-align: center;
-
-  @media (min-width: $breakpoint-md) {
-    font-size: $txt-x-large;
-  }
-
-  @media (min-width: $breakpoint-lg) {
-    padding-top: 10%;
-  }
-
-  @media (min-width: $breakpoint-xl) {
-    font-size: $txt-huge;
-  }
 }
 
-.wapper-org {
-  color: $white;
+.wrapper-org {
+  padding: 5px 15px 60px;
 
-  @media (min-width: $breakpoint-xl) {
-    margin:0 auto;
-    max-width: 1200px;
+  @media (min-width:$breakpoint-md) {
+    margin: 0 auto;
+    width: 80%;
   }
+  @media (min-width: $breakpoint-xl) {
+    margin: 0 auto;    
+    max-width: 1200px;  
+  }
+
 }
+
