@@ -99,7 +99,6 @@
 }
 
 .wrapper-text {
-  color: $white;
   padding: 0;
   position: relative;
   width: 100%;
@@ -128,7 +127,7 @@
   content: "Obra";
   color: $white;
   display: none;
-  font-size: $txt-medium;
+  font-size: 1.1rem;
   font-weight: bold;
   opacity: .7;
   position: absolute;
@@ -192,52 +191,56 @@
 
 .wrapper-text__paragraph {
   bottom: 15%;
-  opacity: .7;
+  opacity: .9;
   position: relative;
   width: 100%;
 
   @media (min-width: $breakpoint-md) {
-    bottom: 10%;
+    bottom: 5%;
+    font-size: 1rem;
     position: absolute;
     width: 90%;
   }
 
   @media (min-width: $breakpoint-lg) {
+    bottom: 10%;
     width: 85%;
   }
   
   @media (min-width: $breakpoint-xl) {
     bottom: 5%;
+    font-size: 1.2rem;
 	}
 }
 
 .wrapper-text__paragraph--rigth {
   bottom: 15%;
-  opacity: .7;
+  opacity: .9;
   position: relative;
   right: 0;
   width: 100%;
 
   @media (min-width: $breakpoint-md) {
-    bottom: 10%;
-    font-size: 1.1rem;
+    bottom: 5%;
+    font-size: 1rem;
     position: absolute;
     right: 5%;
     width: 90%;
   }
 
   @media (min-width: $breakpoint-lg) {
+    bottom: 10%;
     width: 85%;
   }
 
   @media (min-width: $breakpoint-xl) {
-    bottom: 15%;
+    bottom: 5%;
+    font-size: 1.2rem;
 	}
 }
 
 .wrapper-text__details {
-  bottom: 2%;
-  position: relative;
+  bottom: 0;
   right: 0;
 
   @media (min-width: $breakpoint-md) {
@@ -250,18 +253,18 @@
 }
 
 .wrapper-text__details--right {
-  bottom: 2%;
+  bottom: 0;
   left: 0;
-  position: relative;
 
   @media (min-width: $breakpoint-md) {
     position: absolute;
-    left: 65%;
+    left: 55%;
   }
 
-  @media (min-width: $breakpoint-lg) {
+  @media (min-width: $breakpoint-xl) {
+    position: absolute;
     left: 65%;
-	}
+  }
 }
 
 .modalities__btn-obras {
@@ -298,7 +301,7 @@
   }
 
   @media (min-width: $breakpoint-lg) {
-    font-size: $txt-small;
+    font-size: 1rem;
     padding: 15px;
     width: 220px;
 	}
