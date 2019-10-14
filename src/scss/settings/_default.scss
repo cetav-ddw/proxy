@@ -1,4 +1,3 @@
-// titles
 body {
   background: black;
   margin: 0;
@@ -17,56 +16,47 @@ button {
 h1 {
   color: $white;
   font-family: $title; 
-  font-size: $txt-large;
-  
+  font-size: $txt-huge;
+
   @media (min-width: $breakpoint-md) {
-    font-size: $txt-x-large;
-  }
-  @media (min-width: $breakpoint-xl) {
-    font-size: $txt-huge;
+    font-size: $txt-m-huge;
   }
 }
 
 h2 {
   color: $white;
   font-family: $title;
-  font-size: $txt-large;
+  font-size: $txt-huge;
   letter-spacing: 3px;
   text-align: center;
+
   @media (min-width: $breakpoint-md) {
-    font-size: $txt-x-large;
-  }
-  @media (min-width: $breakpoint-xl) {
-    font-size: $txt-huge;
+    font-size: $txt-m-huge;
   }
 }
 
 h3 {
   color: $white;
   font-family: $title;
-  font-size: $txt-medium;
+  font-size: $txt-huge;
+
   @media (min-width: $breakpoint-md) {
-    font-size: $txt-large;
-  }
-  @media (min-width: $breakpoint-xl) {
-    font-size: $txt-huge;
+    font-size: $txt-m-huge;
   }
 }
 
 h4 {
   color: $white;
   font-family: $title;
-  font-size: $txt-medium;
+  font-size: $txt-huge;
+
   @media (min-width: $breakpoint-md) {
-    font-size: $txt-large;
-  }
-  @media (min-width: $breakpoint-xl) {
-    font-size: $txt-x-large;
+    font-size: $txt-m-huge;
   }
 }
 
 p {
-  color: $white;   
+  color: $white;  
   font-family: $regular-txt;
   font-size: $txt-small;
   letter-spacing: 2px;
@@ -77,33 +67,30 @@ p {
   @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
   }
-  @media (min-width: $breakpoint-xl) {
-    font-size: $txt-medium;
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: $txt-large;
   }
 }
 
 a {
   text-decoration: none;
+  font-size: $txt-small-link;
+
+  @media ( min-width: $breakpoint-lg) {
+    font-size: $txt-medium-link;
+  }
 }
 
 li{
   color: $white;
-  font-size: $txt-small;
   letter-spacing: 2px;
   line-height: 1.58;
-
-  @media (min-width: $breakpoint-md) {
-    font-size: $txt-medium;
-  }
-  @media (min-width: $breakpoint-xl) {
-    font-size: $txt-large;
-  }
 }
 
 .details-ui {
   color: $white;
   display: block;
-  font-size: .8rem;
   letter-spacing: 3px;
   text-transform: uppercase;
   position: relative;
@@ -122,7 +109,7 @@ li{
     }
   
     &:before{
-      animation: glitch 1.5s infinite linear;
+      animation: glitch .3s infinite linear;
       background: $black;
       color: $white;
       content:"mas detalles +";
@@ -133,10 +120,5 @@ li{
       right: 0;
       text-shadow: -1px 1px  1px $turquoise;
     }
-  }
-
-
-  @media ( min-width: $breakpoint-lg) {
-    font-size: $txt-medium;
   }
 }

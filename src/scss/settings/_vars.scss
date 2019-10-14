@@ -25,12 +25,25 @@ $title: "Cooper-Hewitt", "Arial", sans-serif;
 $regular-txt: 'Lexend Deca', 'Helvetica',sans-serif;
 
 // font-sizes
+// txt-small-link: links mobile
+// txt- medium-link: links tablet
+// txt-small: paragraph mobile
+// txt-medium: paragraph tablet
+// txt-large: paragraph laptop
+// txt-huge: titles mobile
+// txt-m-huge: titles tablet
+// txt-x-huge: title laptop
+
+$txt-small-link: 1rem;
+$txt-medium-link: 1.2rem;
+
 $txt-small: 1rem;
-$txt-medium: 1.3rem;
-$txt-large:  1.5rem;
-$txt-x-large: 2.2rem;
-$txt-huge:  3rem;
-$txt-x-huge: 5.62rem;
+$txt-medium: 1.1rem;
+$txt-large: 1.3rem;
+
+$txt-huge: 2rem;
+$txt-m-huge: 3rem;
+$txt-x-huge: 3.5rem;
 
 // Breakpoints
 $breakpoint-md: 768px;
