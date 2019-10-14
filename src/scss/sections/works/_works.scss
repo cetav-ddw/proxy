@@ -54,6 +54,26 @@
   max-width: 100%;
 }
 
+.wrapper-image::after {
+  color: $white;
+  content: "Like Me, Love Me";
+  font-size: $txt-large;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20%;
+
+  @media (min-width: $breakpoint-md) {
+    font-size:  2.5rem;
+    right: -40px;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    font-size: 3rem;
+	}
+}
+
 .wrapper-image__name {
   text-align: center;
   margin: 10px 0 0; 
@@ -73,6 +93,18 @@
     right: -85%;
 	}
 }
+
+
+.wrapper-image--right::after {
+  content: "_17 -19_";
+  color: $white;
+  font-size: $txt-large;
+  font-weight: bold;
+  left: 80%;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 20%;
 
 .lastname {
   @media (min-width: $breakpoint-md) {
@@ -187,7 +219,6 @@
 .wrapper-text::after {
   background: $white;
   content: "";
-  display: none;
   height: 2px;
   left: 15px;
   opacity: .7;
