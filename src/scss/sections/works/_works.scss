@@ -54,26 +54,6 @@
   max-width: 100%;
 }
 
-.wrapper-image::after {
-  color: $white;
-  content: "Like Me, Love Me";
-  font-size: $txt-large;
-  font-weight: bold;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 20%;
-
-  @media (min-width: $breakpoint-md) {
-    font-size:  2.5rem;
-    right: -40px;
-  }
-
-  @media (min-width: $breakpoint-lg) {
-    font-size: 3rem;
-	}
-}
-
 .wrapper-image__name {
   text-align: center;
   margin: 10px 0 0; 
@@ -105,6 +85,7 @@
   text-align: left;
   top: 0;
   width: 20%;
+}
 
 .lastname {
   @media (min-width: $breakpoint-md) {
