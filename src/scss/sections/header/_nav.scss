@@ -31,7 +31,7 @@
   position: relative;
   top: -5px;
 
-  @media (min-width: $breakpoint-lg) {
+  @media (min-width: $breakpoint-md) {
     font-size: $txt-medium;
     top: -5px;
   }
@@ -105,9 +105,7 @@
   color: $white;
   font-family: $regular-txt;
   font-weight: bold;
-  font-size: $txt-x-large;
   text-align: center;
-  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 3px;
 
@@ -120,8 +118,8 @@
       -webkit-background-clip: text;
     color: transparent;
   }
-
-  @media ( min-width: $breakpoint-md) {
-    font-size: $txt-huge;
+  
+  @media (min-width: $breakpoint-md) {
+    font-size: 2.5rem;
   }
 }

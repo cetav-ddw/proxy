@@ -30,7 +30,11 @@
   @media (min-width:$breakpoint-md) {
     display: inline-block;
     margin: 0 auto;
-    }
+  }
+}
+
+.desc-pabellon__subtitle {
+  font-size: 1.5rem;
 }
 
 .req {
