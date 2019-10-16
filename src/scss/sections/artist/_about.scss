@@ -5,7 +5,6 @@
   @media ( min-width: $breakpoint-md) {
     height: 370px;
   }
-
   @media ( min-width: $breakpoint-lg) {
     height: 400px;
   }
@@ -18,13 +17,13 @@
   @media ( min-width: $breakpoint-md) {
     width: 50%;
   }
-
   @media ( min-width: $breakpoint-lg) {
     width: 40%;
   }
 }
 
 .list-artist-ui {
+  display: inline-block;
   padding: 0;
 }
 
@@ -35,9 +34,8 @@
   @media ( min-width: $breakpoint-md) {
     font-size: $txt-medium;
   }
-
   @media ( min-width: $breakpoint-lg) {
-    font-size: $txt-large;
+    font-size: $txt-medium;
   }
 }
 
@@ -48,18 +46,19 @@
 
   @media ( min-width: $breakpoint-md) {
     bottom: 10px;
-    right: 0;
     position: absolute;
+    right: 0;
+    top: 127px;
     width: 65%;
   }
-
   @media ( min-width: $breakpoint-lg) {
-    right: 30px;
-    font-size: $txt-medium;
+   font-size: $txt-medium; 
+   right: 30px;
   }
 }
 
 .about-artist__subtitle {
   color: $white;
+  padding: 20px 0;
   text-align: left;
 }

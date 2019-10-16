@@ -25,11 +25,15 @@
 }
 
 .btn-all-works {
-  background: linear-gradient($black-transparent, $black-transparent) , url('/img/link-hover.jpg');
+  background: linear-gradient($turquoise, $turquoise) , url('/img/link-hover.jpg');
   background-size: cover;
 }
 
 .btn-next {
-  background: linear-gradient($turquoise, $turquoise) , url('/img/thumbnail.png');
+  background: linear-gradient($blue, $blue) , url('/img/thumbnail.png');
   background-size: cover;
+
+  &:hover {
+    background-color: $blue-hover;
+  }
 }
